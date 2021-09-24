@@ -15,7 +15,7 @@ from .models import Student, StudentBulkUpload
 
 class StudentListView(LoginRequiredMixin, ListView):
     model = Student
-    template_name = "students/student_list.html"
+    # template_name = "students/student_list.html"
 
 
 class StudentDetailView(LoginRequiredMixin, DetailView):
@@ -51,7 +51,7 @@ class StudentUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
         form =  super(StudentUpdateView, self).get_form()
         form.fields["date_of_birth"].widget = widgets.DateInput(attrs={"type": "date"})
         form.fields["date_of_admission"].widget = widgets.DateInput(attrs={"type": "date"})
-        form.fields["address"].widget = widgets,widgets.Textarea(attrs={"rows": 2})
+        form.fields["address"].widget = widgets.Textarea(attrs={"rows": 2})
         return form
 
 

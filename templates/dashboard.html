@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+  <div class="row m-0 p-0">
+    <h3 class="mb-3">Dashboard</h3>
+    <div class="col-12 p-0">
+      <div class="topstat d-flex justify-content-between">
+        <div class="statbox">
+          <i class="fas fa-users fa-3x"></i>
+          <div class="text">
+            <p>Students</p>
+            <h3>{{ total_students }}</h3>
+          </div>
+        </div>
+        <div class="statbox">
+          <i class="fas fa-users fa-3x"></i>
+          <div class="text">
+            <p>Staff</p>
+            <h3>{{ total_staff }}</h3>
+          </div>
+        </div>
+        <div class="statbox">
+          <i class="fas fa-users fa-3x"></i>
+          <div class="text">
+            <p>clubs</p>
+            <h3>20</h3>
+          </div>
+        </div>
+        <div class="statbox">
+          <i class="fas fa-users fa-3x"></i>
+          <div class="text">
+            <p>books</p>
+            <h3>2000</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second row -->
+  <div id="second-row" class="row m-0 p-0">
+    <div class="col-12 mt-5 p-0 d-flex justify-content-between">
+      <div class="card">
+        <div class="card-header">
+          <h5>upcoming events</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between">
+            <span class="name">Seminar on Machine Learning</span>
+            <span class="date">december 12</span>
+            <span class="organizer">dpi decoder</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span class="name">Spelling Bee</span>
+            <span class="date">november 26</span>
+            <span class="organizer">english club</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span class="name">hello! you.</span>
+            <span class="date">december 2</span>
+            <span class="organizer">cultural club</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h5>Notice Board</h5>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <h5 class="date">23 nov 2019</h5>
+            <h5>Admit card collecting notice.</h5>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end of second row -->
+
+  <!-- payment row -->
+  <div class="row m-0 p-0">
+    <h3 class="mt-5 mb-3">Stuff Payment</h3>
+    <div class="col-12 p-0 d-flex justify-content-between">
+      <div class="unpaid card">
+        <ul class="list-group list-group-flush">
+          <li class="title list-group-item d-flex justify-content-between">
+            <h5>unpaid</h5>
+              <a href="" title="Mark as paid">
+                <i class="far fa-check-circle"></i>
+              </a>
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" name="paid"> Md. Shariful Islam
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" name="paid"> Md. Shariful Islam
+          </li>
+          <li class="list-group-item">
+            <input type="checkbox" name="paid"> Md. Shariful Islam
+          </li>
+        </ul>
+      </div>
+      <div class="paid card">
+        <ul class="list-group list-group-flush">
+          <li class="title list-group-item">
+            <h5>paid</h5>
+          </li>
+          <li class="list-group-item">Soma rani das</li>
+          <li class="list-group-item">Johir chy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock content %}

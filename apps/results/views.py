@@ -1,16 +1,18 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required, user_passes_test
 from django.views.generic import View
 
 from apps.students.models import Student
+from apps.management.views import user_is_staff
 
 from .forms import CreateResults, EditResults
 from .models import Result
 
 
 @login_required
+@user_passes_test(user_is_staff)
 def create_result(request):
     students = Student.objects.all()
     if request.method == "POST":
@@ -52,6 +54,7 @@ def create_result(request):
 
 
 @login_required
+@user_passes_test(user_is_staff)
 def edit_results(request):
     if request.method == "POST":
         form = EditResults(request.POST)

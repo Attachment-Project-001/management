@@ -1,29 +1,37 @@
+from django.forms.models import modelformset_factory
 from django.urls import reverse_lazy
 from django.contrib import messages
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, TemplateView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
+from django.contrib.auth.models import User
+from django.contrib.auth.decorators import user_passes_test
+
+from apps.staff.models import Staff
+from apps.students.models import Student
 
 from .forms import (CurrentSessionForm, SiteConfigForm, AcademicSessionForm,
-                    AcademicTermForm, Stud_ClassForm, SubjectForm)
-from .models import (AcademicSession, AcademicTerm, SiteConfig,
-                     Stud_Class, Subject)
+                    AcademicTermForm, Stud_ClassForm, SubjectAssignToStudentForm, SubjectAssignToTeacherForm, SubjectForm)
+from .models import (AcademicSession, AcademicTerm, DailyAttendance, Department, SiteConfig,
+                     Stud_Class, Subject, SubjectAssignToStudent, SubjectAssignToTeacher)
+
+def user_is_staff(user):
+    return user.is_staff
 
 
-class IndexView(LoginRequiredMixin, TemplateView):
-    template_name = "index.html"
+class DashboardView(LoginRequiredMixin, TemplateView):
+    template_name = "dashboard.html"
 
-
-class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
-    model = AcademicSession
-    template_name = 'management/session_list.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['form'] = AcademicSessionForm()
-        return context
+    def dashboard(request, self):
+        total_students = Student.objects.count()
+        total_staff = Staff.objects.count()
+        context = {
+            "total_students": total_students,
+            "total_staff": total_staff,
+        }
+        return render(request, self.template_name, context)
 
 
 class SiteConfigView(LoginRequiredMixin, View):
@@ -55,6 +63,7 @@ class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         return context
 
 
+
 class SessionCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = AcademicSession
     form_class = AcademicSessionForm
@@ -66,6 +75,7 @@ class SessionCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         context = super().get_context_data(**kwargs)
         context['title'] = "Add new session"
         return context
+
 
 
 class SessionUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
@@ -89,6 +99,7 @@ class SessionUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
         return super().form_valid(form)
 
 
+
 class SessionDeleteView(LoginRequiredMixin, DeleteView):
     model = AcademicSession
     template_name = "management/core_confirm_delete.html"
@@ -105,12 +116,14 @@ class SessionDeleteView(LoginRequiredMixin, DeleteView):
         return super(SessionDeleteView, self).delete(request, *args, **kwargs)
 
 
+
 class TermCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = AcademicTerm
     form_class = AcademicSessionForm
     template_name = 'management/core_form.html'
     success_url = reverse_lazy('terms')
     success_message = "New term successsfully added"
+
 
 
 class TermListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
@@ -121,6 +134,7 @@ class TermListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         context = super().get_context_data(**kwargs)
         context['form'] = AcademicTermForm()
         return context
+
 
 
 class TermUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
@@ -144,6 +158,7 @@ class TermUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
         return super().form_valid(form)
 
 
+
 class TermDeleteView(LoginRequiredMixin, DeleteView):
     model = AcademicTerm
     success_url = reverse_lazy('terms')
@@ -157,6 +172,7 @@ class TermDeleteView(LoginRequiredMixin, DeleteView):
             return redirect('terms')
         messages.success(self.request, self.success_message.format(obj.name))
         return super(TermDeleteView, self).delete(request, *args, **kwargs)
+
 
 
 class ClassCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
@@ -177,12 +193,14 @@ class ClassListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         return context
 
 
+
 class ClassUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = Stud_Class
     fields = ['name']
     success_url = reverse_lazy('classes')
     success_message = "Class successfully updated."
     template_name = 'management/core_form.html'
+
 
 
 class ClassDeleteView(LoginRequiredMixin, DeleteView):
@@ -196,6 +214,7 @@ class ClassDeleteView(LoginRequiredMixin, DeleteView):
         print(obj.name)
         messages.success(self.request, self.success_message.format(obj.name))
         return super(ClassDeleteView, self).delete(request, *args, **kwargs)
+
 
 
 class SubjectCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
@@ -216,12 +235,14 @@ class SubjectListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         return context
 
 
+
 class SubjectUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = Subject
     fields = ["name"]
     success_url = reverse_lazy("subjects")
     success_message = "Subject successfully updated."
     template_name = "management/core_form.html"
+
 
 
 class SubjectDeleteView(LoginRequiredMixin, DeleteView):
@@ -258,3 +279,89 @@ class CurrentSessionAndTermView(LoginRequiredMixin, View):
             AcademicSession.objects.exclude(name=session).update(current=False)
             AcademicTerm.objects.filter(name=term).update(current=True)
         return render(request, self.template_name, {"form": form})
+
+
+
+def course_assign_to_teacher(request):
+    """
+    Course assign to teacher form here
+    """
+    if request.method == 'POST':
+        course_assign_to_teacher_form = SubjectAssignToTeacherForm(request.POST)
+        if course_assign_to_teacher_form.is_valid():
+            course_assign_to_teacher_form.save()
+    form = SubjectAssignToTeacherForm()
+    context = {
+        "form": form
+    }
+    return render(request, 'course/add_course_assign_to_teacher.html', context)
+
+
+
+def course_assign_to_teacher_list(request):
+    """
+    Course assign to teacher list is here
+    """
+    if request.method == 'GET':
+        all_course_assign_to_teacher = SubjectAssignToTeacher.objects.all()
+        context = {
+            "all_course_assign_to_teacher": all_course_assign_to_teacher
+        }
+        return render(request, 'course/course_assign_to_teacher_list.html', context)
+
+
+
+def course_assign_to_student(request):
+    """
+    Course assign to student form here
+    """
+    if request.method == 'POST':
+        course_assign_to_student_form = SubjectAssignToStudentForm(request.POST)
+        if course_assign_to_student_form.is_valid():
+            course_assign_to_student_form.save()
+    form = SubjectAssignToStudentForm()
+    context = {
+        "form": form
+    }
+    return render(request, 'course/add_course_assign_to_student.html', context)
+
+
+@user_passes_test(user_is_staff)
+def course_assign_to_student_list(request):
+    """
+    Course assign to student list is here
+    """
+    if request.method == 'GET':
+        all_course_assign_to_student = SubjectAssignToStudent.objects.all()
+        context = {
+            "all_course_assign_to_student": all_course_assign_to_student
+        }
+        return render(request, 'course/course_assign_to_student_list.html', context)
+
+
+@user_passes_test(user_is_staff)
+def daily_attendance(request):
+    formset = modelformset_factory(DailyAttendance, fields=('__all__'))
+    sem = AcademicTerm.objects.get(id=1)
+    dept = Department.objects.get(id=1)
+    if request.method == 'POST':
+        form = formset(request.POST)
+        form.save()
+        return render(request, 'course/attendance_daily.html', {'form': form})
+    form = formset(queryset=Student.objects.filter(
+        semester=sem, department=dept)[:10])
+    return render(request, 'course/attendance_daily.html', {'form': form})
+
+# @user_passes_test(user_is_staff)
+# class AccountListView(LoginRequiredMixin, UserPassesTestMixin, ListView):
+#     model = User
+#     template_name = 'admin_tools/accounts_list.html'
+#     context_object_name = 'accounts'
+# 
+#     def test_func(self):
+#         return self.request.user.is_staff
+# 
+#     def handle_no_permission(self):
+#         if self.request.user.is_authenticated:
+#             return redirect('account:home')
+#         return redirect('account:login')

@@ -23,6 +23,13 @@ Change directory to project directory
 cd school
 ```
 
+You can populate data test cases by running the following scripts
+```
+python populate_students.py
+python populate_staff.py
+python populate_departments.py
+```
+
 Run project
 
 ```

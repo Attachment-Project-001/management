@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}staffs{% endblock title %}
+{% block title %}Members of staff{% endblock title %}
 
 {% block breadcrumb %}
 <a class="btn btn-primary" href="{% url 'staff-create' %}"><i
@@ -12,9 +12,10 @@
     <thead class="thead-light">
       <tr>
         <th>S/N</th>
-        <th>Fullname</th>
+        <th>Full name</th>
         <th>Gender</th>
         <th>Mobile Phone Number</th>
+        <th>Email</th>
         <th>Status</th>
       </tr>
     </thead>
@@ -23,9 +24,10 @@
       {% for staff in object_list %}
         <tr class='clickable-row' data-href="{% url 'staff-detail' staff.id %}">
           <td>{{ forloop.counter}}</td>
-          <td>{{ staff.surname}} {{staff.firstname }} {{staff.other_name }}</td>
+          <td>{{ staff.last_name}} {{staff.surname }} {{staff.first_name }}</td>
           <td>{{ staff.get_gender_display}}</td>
-          <td>{{ staff.parent_mobile_number}}</td>
+          <td>{{ staff.mobile_number}}</td>
+          <td>{{ staff.email }}</td>
           <td>{{ staff.get_current_status_display}}</td>
         </tr>
       {% endfor %}

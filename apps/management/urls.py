@@ -1,13 +1,14 @@
-from django.urls import path
+from django.urls import path, include
 
 from .views import (ClassCreateView,  ClassDeleteView, ClassListView, ClassUpdateView, 
-                    CurrentSessionAndTermView, IndexView, SessionCreateView, SessionDeleteView,
+                    CurrentSessionAndTermView, DashboardView, SessionCreateView, SessionDeleteView,
                     SessionListView, SessionUpdateView, SiteConfigView, SubjectCreateView, 
                     SubjectDeleteView, SubjectListView, SubjectUpdateView, TermCreateView,
                     TermDeleteView, TermListView, TermUpdateView)
 
 urlpatterns = [
-    path('', IndexView.as_view(), name='home'),
+    path('', DashboardView.as_view(), name='home'),
+    path('auth/', include('django.contrib.auth.urls')),
     path("site-config", SiteConfigView.as_view(), name="configs"),
     path("current-session/", CurrentSessionAndTermView.as_view(), name="current-session"),
     path("session/list/", SessionListView.as_view(), name="sessions"),

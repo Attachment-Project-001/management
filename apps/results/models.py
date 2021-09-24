@@ -1,9 +1,8 @@
+from django.conf import settings
 from django.db import models
 
 from apps.students.models import Student
 from apps.management.models import AcademicSession, AcademicTerm, Stud_Class, Subject
-
-from .utils import score_grade
 
 
 class Result(models.Model):
@@ -14,15 +13,27 @@ class Result(models.Model):
     subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
     test_score = models.IntegerField(default=0)
     exam_score = models.IntegerField(default=0)
+    created_by = models.ForeignKey( settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, null=True)
 
     class Meta:
         ordering = ["subject"]
+        unique_together = ['subject', 'student']
 
     def __str__(self):
-        return f"{self.student} {self.session} {self.term} {self.subject}"
+        return f"{self.student} {self.session} {self.term} {self.subject} {self.grade}"
 
     def total_score(self):
         return self.test_score + self.exam_score
 
     def grade(self):
-        return score_grade(self.total_score())
+        if 80 <= self.total_score() <= 100:
+            return 'A'
+        elif 60 <= self.total_score() < 80:
+            return 'B'
+        elif 50 <= self.total_score() < 60:
+            return 'C'
+        elif 40 <= self.total_score() < 50:
+            return 'D'
+        else:
+            return 'F'
+            

@@ -1,11 +1,11 @@
 {% extends 'base.html' %} {% block title %} {% if object %} Update {{ object }}
-{% else %} Add new student {% endif %} {% endblock title %} {% block content %}
+{% else %} Add new staff {% endif %} {% endblock title %} {% block content %}
 
 <form action="" method="POST">
   {% csrf_token %} {% include 'management/form_snippet.html' %} {% if object %}
   <input type="submit" class="btn btn-primary" value="Update Record" />
   {% else %}
-  <input type="submit" class="btn btn-primary" value="Add new student" />
+  <input type="submit" class="btn btn-primary" value="Add staff member" />
   {% endif %}
 </form>
 
