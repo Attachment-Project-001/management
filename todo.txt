@@ -1,0 +1,2 @@
+create app home/landing page
+enable multiple users

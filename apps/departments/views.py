@@ -1,9 +1,8 @@
 from django.urls import reverse_lazy
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
-from django.shortcuts import render, redirect, HttpResponseRedirect
+from django.shortcuts import render, redirect
 from django.views.generic import ListView, TemplateView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 
@@ -11,6 +10,10 @@ from .forms import (CurrentSessionForm, SiteConfigForm, AcademicSessionForm,
                     AcademicTermForm, Stud_ClassForm, SubjectForm)
 from .models import (AcademicSession, AcademicTerm, SiteConfig,
                      Stud_Class, Subject)
+
+
+class IndexView(LoginRequiredMixin, TemplateView):
+    template_name = "index.html"
 
 
 class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):

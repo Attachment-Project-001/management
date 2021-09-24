@@ -47,7 +47,7 @@ def create_result(request):
                 {"students": studentlist, "form": form, "count": len(id_list)}
             )
         else:
-            messages.warning(request, "You did not selecy any student.")
+            messages.warning(request, "You did not select any student.")
     return render(request, "results/create_result.html", {"students": students})
 
 
@@ -68,6 +68,7 @@ def edit_results(request):
 class ResultListView(LoginRequiredMixin, View):
     def get(self, request, *args, **kwargs):
         results = Result.objects.filter(session=request.current_session, term=request.current_term)
+        # results = Result.objects.all()
         bulk = {}
 
         for result in results:

@@ -1,27 +1,13 @@
 from django.urls import path
 
-from .views import (
-    ClassCreateView, 
-    ClassDeleteView, 
-    ClassListView, 
-    ClassUpdateView, 
-    CurrentSessionAndTermView, 
-    SessionCreateView,
-    SessionDeleteView,
-    SessionListView,
-    SessionUpdateView,
-    SiteConfigView,
-    SubjectCreateView, 
-    SubjectDeleteView,
-    SubjectListView,
-    SubjectUpdateView,
-    TermCreateView,
-    TermDeleteView,
-    TermListView,
-    TermUpdateView,
-)
+from .views import (ClassCreateView,  ClassDeleteView, ClassListView, ClassUpdateView, 
+                    CurrentSessionAndTermView, IndexView, SessionCreateView, SessionDeleteView,
+                    SessionListView, SessionUpdateView, SiteConfigView, SubjectCreateView, 
+                    SubjectDeleteView, SubjectListView, SubjectUpdateView, TermCreateView,
+                    TermDeleteView, TermListView, TermUpdateView)
 
 urlpatterns = [
+    path('', IndexView.as_view(), name='home'),
     path("site-config", SiteConfigView.as_view(), name="configs"),
     path("current-session/", CurrentSessionAndTermView.as_view(), name="current-session"),
     path("session/list/", SessionListView.as_view(), name="sessions"),
