@@ -1,4 +1,3 @@
-from _typeshed import SupportsLenAndGetItem
 import csv
 import os
 from io import StringIO

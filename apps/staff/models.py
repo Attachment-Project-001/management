@@ -12,7 +12,7 @@ class Staff(models.Model):
 
     current_status = models.CharField(max_length=10, choices=STATUS_CHOICES, default="active")
     first_name = models.CharField(max_length=200)
-    surname = models.CharField(max_length=200)
+    surname = models.CharField(max_length=200, blank=True)
     last_name = models.CharField(max_length=200)
     gender = models.CharField(max_length=10, choices=GENDER_CHOICES)
     date_of_birth = models.DateField(default=timezone.now)

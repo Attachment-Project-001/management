@@ -16,7 +16,7 @@ class AcademicSessionForm(ModelForm):
 
     class Meta:
         model = AcademicSession
-        fields = '__all__'
+        fields = ["name", "current"]
 
 
 class AcademicTermForm(ModelForm):

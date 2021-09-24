@@ -37,7 +37,7 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         """Add date picker in the form and limit number of rows"""
         form =  super(StudentCreateView, self).get_form()
         form.fields["date_of_birth"].widget = widgets.DateInput(attrs={"type": "date"})
-        form.fields["address"].widget = widgets,widgets.Textarea(attrs={"rows": 2})
+        form.fields["address"].widget = widgets.Textarea(attrs={"rows": 2})
         return form
 
 
@@ -70,7 +70,7 @@ class StudentBulkUploadView(LoginRequiredMixin, SuccessMessageMixin, CreateView)
 
 class DownloadCSVViewdownloadcsv(LoginRequiredMixin, View):
     def get(self, request, *args, **kwargs):
-        response = HttpResponse(context_type="text/csv")
+        response = HttpResponse(content_type="text/csv")
         response["Content-Disposition"] = 'attachment; filename="student_template.csv"'
 
         writer = csv.writer(response)

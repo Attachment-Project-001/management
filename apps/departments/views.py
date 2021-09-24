@@ -23,25 +23,32 @@ class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         return context
 
 
-"""
-    class SiteConfigView(LoginRequiredMixin, View):
-        '''Site Config View'''
+class SiteConfigView(LoginRequiredMixin, View):
+    '''Site Config View'''
+    form_class = SiteConfigForm
+    template_name = "departments/siteconfig.html"
 
-        form_class = SiteConfigForm
-        template_name = "corecode/siteconfig.html"
+    def get(self, request, *args, **kwargs):
+        formset = self.form_class(queryset=SiteConfig.objects.all())
+        context = {"formset": formset}
+        return render(request, self.template_name, context)
 
-        def get(self, request, *args, **kwargs):
-            form = self.form_class(queryset=SiteConfig.objects.all())
-            if form.is_valid():
-                form.save()
-                messages.success(request, "Configurations successfully updated")
-                return HttpResponseRedirect("site-config")
+    def post(self, request, *args, **kwargs):
+        formset = self.form_class(request.POST)
+        if formset.is_valid():
+            formset.save()
+            messages.success(request, "Configurations successfully updated")
+        context = {"formset": formset, "title": "Configuration"}
+        return render(request, self.template_name, context)
 
-        def post(self, request, *args, **kwargs):
-            form = self.form_class(request.POST)
-            context = {"formset": form, "title": "Configuration"}
-            return render(request, self.template_name, context)
-"""
+class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
+    model = AcademicSession
+    template_name = "departments/session_list.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["form"] = AcademicSessionForm()
+        return context
 
 
 class SessionCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):

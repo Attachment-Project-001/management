@@ -10,7 +10,7 @@ from .views import (
     SessionDeleteView,
     SessionListView,
     SessionUpdateView,
-    # SiteConfigView,
+    SiteConfigView,
     SubjectCreateView, 
     SubjectDeleteView,
     SubjectListView,
@@ -22,7 +22,7 @@ from .views import (
 )
 
 urlpatterns = [
-    # path("site-config", SiteConfigView.as_view(), name="configs"),
+    path("site-config", SiteConfigView.as_view(), name="configs"),
     path("current-session/", CurrentSessionAndTermView.as_view(), name="current-session"),
     path("session/list/", SessionListView.as_view(), name="sessions"),
     path("session/create/", SessionCreateView.as_view(), name="session-create"),

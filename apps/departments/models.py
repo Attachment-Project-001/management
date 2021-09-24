@@ -14,7 +14,7 @@ class SiteConfig(models.Model):
 class AcademicSession(models.Model):
     '''Academic Session'''
     name = models.CharField(max_length=200, unique=True)
-    current = models.BooleanField(default=False)
+    current = models.BooleanField(default=True)
 
     class Meta:
         ordering = ['name']
