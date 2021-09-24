@@ -1886,3 +1886,6 @@ INFO 2021-09-24 20:15:38,797 "GET /staff/list/ HTTP/1.1" 200 13066
 INFO 2021-09-24 20:15:49,448 "GET /students/list HTTP/1.1" 200 21805
 INFO 2021-09-24 20:16:34,549 "GET /students/list HTTP/1.1" 200 21805
 INFO 2021-09-24 20:27:04,538 Watching for file changes with StatReloader
+INFO 2021-09-24 20:52:48,190 /home/ogaba/PythonProjects/School/school/core/settings.py changed, reloading.
+INFO 2021-09-24 20:53:12,019 Watching for file changes with StatReloader
+INFO 2021-09-24 21:06:00,457 /home/ogaba/PythonProjects/School/school/core/settings.py changed, reloading.
