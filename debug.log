@@ -1110,7 +1110,7 @@ INFO 2021-09-24 18:04:28,818 "GET /results/create/ HTTP/1.1" 200 14353
 INFO 2021-09-24 18:04:35,131 "GET /results/edit-results/ HTTP/1.1" 200 14494
 INFO 2021-09-24 18:04:53,520 "GET /session/list/ HTTP/1.1" 200 12051
 INFO 2021-09-24 18:05:16,325 "GET /term/list/ HTTP/1.1" 200 12684
-INFO 2021-09-24 18:05:27,818 "GET /term/2/update/ HTTP/1.1" 200 10602
+INFO 2021-09-24 18:05:27,818 "GET /term/2/update/ HTTP/1.1" 200 1060
 INFO 2021-09-24 18:05:54,454 "GET /subject/list/ HTTP/1.1" 200 13011
 INFO 2021-09-24 18:05:59,623 "GET /subject/3/update/ HTTP/1.1" 200 10281
 INFO 2021-09-24 18:06:08,395 "GET /class/list/ HTTP/1.1" 200 13553
@@ -1119,7 +1119,7 @@ INFO 2021-09-24 18:06:18,114 "POST /class/3/update/ HTTP/1.1" 302 0
 INFO 2021-09-24 18:06:18,313 "GET /class/list/ HTTP/1.1" 200 13695
 INFO 2021-09-24 18:06:31,726 "GET /session/list/ HTTP/1.1" 200 12051
 INFO 2021-09-24 18:06:54,418 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 18:06:58,630 "GET /staff/1/ HTTP/1.1" 200 11547
+INFO 2021-09-24 18:06:58,630 "GET /staff/1/ HTTP/1.1" 200 1154
 INFO 2021-09-24 18:07:02,868 "GET /staff/1/update/ HTTP/1.1" 200 15045
 INFO 2021-09-24 18:07:27,313 "GET /finance/list/ HTTP/1.1" 200 10808
 INFO 2021-09-24 18:07:36,793 "GET /students/list HTTP/1.1" 200 17436
@@ -1128,7 +1128,7 @@ INFO 2021-09-24 18:07:50,340 "GET /students/list HTTP/1.1" 200 17436
 INFO 2021-09-24 18:08:12,763 "GET /students/9/ HTTP/1.1" 200 12286
 ERROR 2021-09-24 18:08:17,731 Internal Server Error: /students/9/update/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inne
     response = get_response(request)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
     response = response.render()
@@ -1137,7 +1137,7 @@ Traceback (most recent call last):
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
     return template.render(context, self._request)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
+    return self.template.render(context
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
     return self._render(context)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
@@ -1147,7 +1147,7 @@ Traceback (most recent call last):
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
     return self.render(context)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
+    return compiled_parent._render(context
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
     return self.nodelist.render(context)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
@@ -1157,7 +1157,7 @@ Traceback (most recent call last):
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
     result = block.nodelist.render(context)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
+    bit = node.render_annotated(context
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
     return self.render(context)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
@@ -1413,7 +1413,7 @@ Traceback (most recent call last):
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
     compiled_result = compile_func(self, token)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
+    nodelist = parser.parse(
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
     raise self.error(token, e)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
@@ -1422,7 +1422,7 @@ Traceback (most recent call last):
     nodelist = parser.parse(('endblock',))
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
     raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in pars
     compiled_result = compile_func(self, token)
   File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
     nodelist = parser.parse(('endif',))
