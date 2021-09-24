@@ -9,18 +9,21 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('departments', '0001_initial'),
+        ('management', '0001_initial'),
     ]
 
     operations = [
         migrations.CreateModel(
             name='Result',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('test_score', models.IntegerField(default=0)),
                 ('exam_score', models.IntegerField(default=0)),
-                ('current_class', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='departments.stud_class')),
-                ('session', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='departments.academicsession')),
+                ('current_class', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE, to='management.stud_class')),
+                ('session', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE, to='management.academicsession')),
             ],
             options={
                 'ordering': ['subject'],

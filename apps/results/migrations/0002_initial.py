@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('students', '0001_initial'),
-        ('departments', '0001_initial'),
+        ('management', '0001_initial'),
         ('results', '0001_initial'),
     ]
 
@@ -18,16 +18,19 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='result',
             name='student',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='students.student'),
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE, to='students.student'),
         ),
         migrations.AddField(
             model_name='result',
             name='subject',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='departments.subject'),
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE, to='management.subject'),
         ),
         migrations.AddField(
             model_name='result',
             name='term',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='departments.academicterm'),
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE, to='management.academicterm'),
         ),
     ]

@@ -11,10 +11,10 @@ Currently it is solely meant for only the school administrator
 To be created soon
 
 ## Usage 
-It is recommended to run this projects in a virtual environment(This was developed in a conda environment). Once set up clone this repository.
+It is recommended to run this projects in a virtual environment (This was developed in a conda environment). Once set up, clone this repository.
 
 ```bash
-git clone <repository link>
+git clone https://github.com/kevogaba/school.git
 ```
 
 Change directory to project directory
@@ -31,11 +31,13 @@ python manage.py migrate
 python manage.py runserver # default http://127.0.0.1:8000
 ```
 
-#### Admin Login
+Admin Login
 Migration creates a super user with credentials
-    - username: admin123
-    - password: admin123
 
-### Development environments
-Django version 3.2.5
-python version 3.9.6
+```
+username: admin123
+password: admin123
+```
+
+### Development Environment
+Django version 3.2.5 and Python version 3.9.6

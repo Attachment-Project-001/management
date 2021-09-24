@@ -1,7 +1,7 @@
 from django import forms
 from django.forms import modelformset_factory
 
-from apps.departments.models import AcademicSession, AcademicTerm, Subject
+from apps.management.models import AcademicSession, AcademicTerm, Subject
 
 from .models import Result
 

@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
-from apps.departments.models import AcademicSession, AcademicTerm, Stud_Class
+from apps.management.models import AcademicSession, AcademicTerm, Stud_Class
 from apps.students.models import Student
 
 
@@ -14,8 +14,8 @@ class Invoice(models.Model):
     term = models.ForeignKey(AcademicTerm, on_delete=models.CASCADE)
     class_for = models.ForeignKey(Stud_Class, on_delete=models.CASCADE)
     balance_from_previous_session = models.IntegerField(default=0)
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="active")
-
+    status = models.CharField(
+        max_length=20, choices=STATUS_CHOICES, default="active")
 
     class Meta:
         ordering = ["student", "term"]

@@ -5,7 +5,7 @@ from io import StringIO
 from django.dispatch import receiver
 from django.db.models.signals import post_delete, post_save
 
-from apps.departments.models import Stud_Class
+from apps.management.models import Stud_Class
 
 from .models import Student, StudentBulkUpload
 
@@ -20,17 +20,20 @@ def create_bulk_student(sender, created, instance, *args, **kwargs):
             if "registration_number" in row and row["registation_number"]:
                 reg = row["registation_number"]
                 first_name = row["first_name"] if "first_name" in row and row["first_name"] else ""
-                surname =  row["surname"] if "surname" in row and row["surname"] else ""
+                surname = row["surname"] if "surname" in row and row["surname"] else ""
                 last_name = row["last_name"] if 'last_name' in row and row["last_name"] else ""
-                gender = (row["gender"]).lower() if "gender" in row and row["gender"] else ""
+                gender = (row["gender"]).lower(
+                ) if "gender" in row and row["gender"] else ""
                 student_mobile = row["student_phone"] if "student_phone" in row and row["student_phone"] else ""
                 parent_mobile = row["parent_phone"] if "parent_phone" in row and row["parent_phone"] else ""
                 address = row["address"] if "address" in row and row["address"] else ""
                 current_class = row["current_class"] if "current_class" in row and row["current_class"] else ""
                 if current_class:
-                    theclass, kind = Stud_Class.objects.get_or_create(name=current_class)
-                
-                check = Student.objects.filter(registration_number=reg).exists()
+                    theclass, kind = Stud_Class.objects.get_or_create(
+                        name=current_class)
+
+                check = Student.objects.filter(
+                    registration_number=reg).exists()
                 if not check:
                     students.append(
                         Student(

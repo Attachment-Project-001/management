@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from apps.departments.models import (
+from apps.management.models import (
     AcademicSession,
     AcademicTerm,
     SiteConfig,
@@ -17,7 +17,8 @@ class SiteConfigTest(TestCase):
 
 class AcademicSessionTest(TestCase):
     def test_academicsession(self):
-        session = AcademicSession.objects.create(name="test session", current=True)
+        session = AcademicSession.objects.create(
+            name="test session", current=True)
         self.assertEqual(str(session), "test session")
 
 
@@ -31,6 +32,7 @@ class SubjectTest(TestCase):
     def test_subject(self):
         subject = Subject.objects.create(name="a_subject")
         self.assertEqual(str(subject), "a_subject")
+
 
 class ClassTest(TestCase):
     def test_class(self):

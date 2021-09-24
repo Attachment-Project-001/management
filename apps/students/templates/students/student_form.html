@@ -1,30 +1,12 @@
-{% extends 'base.html' %}
-
-
-{% block title %}
-
-  {% if object %}
-    Update {{ object }}
-  {% else %}
-    Add new student
-  {% endif %}
-
-{% endblock title %}
-
-
-{% block content %}
+{% extends 'base.html' %} {% block title %} {% if object %} Update {{ object }}
+{% else %} Add new student {% endif %} {% endblock title %} {% block content %}
 
 <form action="" method="POST" enctype="multipart/form-data">
-  {% csrf_token %}
-
-  {% include 'departments/form_snippet.html' %}
-
-  {% if object %}
-    <input type="submit" class="btn btn-primary" value="Update Record">
+  {% csrf_token %} {% include 'management/form_snippet.html' %} {% if object %}
+  <input type="submit" class="btn btn-primary" value="Update Record" />
   {% else %}
-    <input type="submit" class="btn btn-primary" value="Add new student">
+  <input type="submit" class="btn btn-primary" value="Add new student" />
   {% endif %}
 </form>
-
 
 {% endblock content %}

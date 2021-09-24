@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class DepartmentsConfig(AppConfig):
+class managementConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.departments'
+    name = 'apps.management'
 
     def ready(self):
-        import apps.departments.signals
+        import apps.management.signals

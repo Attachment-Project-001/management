@@ -7,9 +7,10 @@ from django.contrib.auth.models import User
 def default_site_config(apps, schema_editor):
     """Default site configurations"""
 
-    User.objects.create_superuser("admin123", "admin@schoolapp.com", "admin123")
+    User.objects.create_superuser(
+        "admin123", "admin@schoolapp.com", "admin123")
 
-    Config = apps.get_model("departments", "SiteConfig")
+    Config = apps.get_model("management", "SiteConfig")
     Config.objects.bulk_create(
         [
             Config(key="school_name", value="Preciuos Hope"),
@@ -18,14 +19,14 @@ def default_site_config(apps, schema_editor):
         ]
     )
 
-    Session = apps.get_model("departments", "AcademicSession")
+    Session = apps.get_model("management", "AcademicSession")
     Session.objects.bulk_create(
         [
             Session(name="2021/2022", current=True),
         ]
     )
 
-    Term = apps.get_model("departments", "AcademicTerm")
+    Term = apps.get_model("management", "AcademicTerm")
     Term.objects.bulk_create(
         [
             Term(name="1st Term", current=True),
@@ -34,7 +35,7 @@ def default_site_config(apps, schema_editor):
         ]
     )
 
-    Subject = apps.get_model("departments", "Subject")
+    Subject = apps.get_model("management", "Subject")
     Subject.objects.bulk_create(
         [
             Subject(name="Mathematics"),
@@ -46,7 +47,7 @@ def default_site_config(apps, schema_editor):
         ]
     )
 
-    Stud_Class = apps.get_model("departments", "Stud_Class")
+    Stud_Class = apps.get_model("management", "Stud_Class")
     Stud_Class.objects.bulk_create(
         [
             Stud_Class(name="Grade 1"),
@@ -65,7 +66,7 @@ def default_site_config(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('departments', '0002_alter_academicsession_current'),
+        ('management', '0002_alter_academicsession_current'),
     ]
 
     operations = [

@@ -11,14 +11,15 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('departments', '0001_initial'),
+        ('management', '0001_initial'),
     ]
 
     operations = [
         migrations.CreateModel(
             name='StudentBulkUpload',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('date_uploaded', models.DateTimeField(auto_now=True)),
                 ('csv_file', models.FileField(upload_to='students/bulkupload/')),
             ],
@@ -26,20 +27,30 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Student',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('current_status', models.CharField(choices=[('active', 'Active'), ('inactive', 'Inactive')], default='active', max_length=10)),
-                ('registration_number', models.CharField(max_length=200, unique=True)),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
+                ('current_status', models.CharField(choices=[
+                 ('active', 'Active'), ('inactive', 'Inactive')], default='active', max_length=10)),
+                ('registration_number', models.CharField(
+                    max_length=200, unique=True)),
                 ('first_name', models.CharField(max_length=200)),
                 ('surname', models.CharField(max_length=200)),
                 ('last_name', models.CharField(max_length=200)),
-                ('gender', models.CharField(choices=[('male', 'Male'), ('female', 'Female')], max_length=10)),
-                ('date_of_birth', models.DateField(default=django.utils.timezone.now)),
-                ('date_of_admission', models.DateField(default=django.utils.timezone.now)),
-                ('student_mobile', models.CharField(max_length=14, validators=[django.core.validators.RegexValidator(message='Enter a valid phone number', regex='^[0-9]{10,15}$')])),
-                ('parent_mobile', models.CharField(blank=True, max_length=14, validators=[django.core.validators.RegexValidator(message='Enter a valid phone number', regex='^[0-9]{10,15}$')])),
+                ('gender', models.CharField(choices=[
+                 ('male', 'Male'), ('female', 'Female')], max_length=10)),
+                ('date_of_birth', models.DateField(
+                    default=django.utils.timezone.now)),
+                ('date_of_admission', models.DateField(
+                    default=django.utils.timezone.now)),
+                ('student_mobile', models.CharField(max_length=14, validators=[
+                 django.core.validators.RegexValidator(message='Enter a valid phone number', regex='^[0-9]{10,15}$')])),
+                ('parent_mobile', models.CharField(blank=True, max_length=14, validators=[
+                 django.core.validators.RegexValidator(message='Enter a valid phone number', regex='^[0-9]{10,15}$')])),
                 ('address', models.TextField(blank=True)),
-                ('passport', models.ImageField(blank=True, upload_to='students/passports/')),
-                ('current_class', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='departments.stud_class')),
+                ('passport', models.ImageField(
+                    blank=True, upload_to='students/passports/')),
+                ('current_class', models.ForeignKey(blank=True, null=True,
+                 on_delete=django.db.models.deletion.SET_NULL, to='management.stud_class')),
             ],
             options={
                 'ordering': ['last_name', 'surname', 'first_name'],

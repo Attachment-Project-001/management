@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     "widget_tweaks",
-    'apps.departments',
+    'apps.management',
     'apps.finance',
     'apps.results',
     'apps.staff',
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'apps.departments.middleware.SiteWideConfigs',
+    'apps.management.middleware.SiteWideConfigs',
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -71,7 +71,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'apps.departments.context_processors.site_defaults',
+                'apps.management.context_processors.site_defaults',
             ],
         },
     },

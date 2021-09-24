@@ -11,18 +11,20 @@ class Migration(migrations.Migration):
     dependencies = [
         ('finance', '0001_initial'),
         ('students', '0001_initial'),
-        ('departments', '0001_initial'),
+        ('management', '0001_initial'),
     ]
 
     operations = [
         migrations.AddField(
             model_name='invoice',
             name='student',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='students.student'),
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE, to='students.student'),
         ),
         migrations.AddField(
             model_name='invoice',
             name='term',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='departments.academicterm'),
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE, to='management.academicterm'),
         ),
     ]
