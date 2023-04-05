@@ -6,8 +6,8 @@ class SiteWideConfigs:
         self.get_response = get_response
 
     def __call__(self, request):
-        current_session = AcademicSession.objects.get(current=True)
-        current_term = AcademicTerm.objects.get(current=True)
+        current_session = AcademicSession.objects.filter(current=True)[:1].get()
+        current_term = AcademicTerm.objects.filter(current=True)[:1].get()
 
         request.current_session = current_session
         request.current_term = current_term

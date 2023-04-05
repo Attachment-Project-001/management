@@ -2,8 +2,8 @@ from .models import AcademicSession, AcademicTerm, SiteConfig
 
 '''default contexts'''
 def site_defaults(request):
-    current_session = AcademicSession.objects.get(current=True)
-    current_term = AcademicTerm.objects.get(current=True)
+    current_session = AcademicSession.objects.filter(current=True)[:1].get()
+    current_term = AcademicTerm.objects.filter(current=True)[:1].get()
     vals = SiteConfig.objects.all()
     context = {
         'current_session': current_session.name,

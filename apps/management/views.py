@@ -6,7 +6,7 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, TemplateView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import user_passes_test
 
 from apps.staff.models import Staff
@@ -17,6 +17,8 @@ from .forms import (CurrentSessionForm, SiteConfigForm, AcademicSessionForm,
 from .models import (AcademicSession, AcademicTerm, DailyAttendance, Department, SiteConfig,
                      Stud_Class, Subject, SubjectAssignToStudent, SubjectAssignToTeacher)
 
+User = get_user_model()
+
 def user_is_staff(user):
     return user.is_staff
 
@@ -24,14 +26,14 @@ def user_is_staff(user):
 class DashboardView(LoginRequiredMixin, TemplateView):
     template_name = "dashboard.html"
 
-    def dashboard(request, self):
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
         total_students = Student.objects.count()
         total_staff = Staff.objects.count()
-        context = {
-            "total_students": total_students,
-            "total_staff": total_staff,
-        }
-        return render(request, self.template_name, context)
+        context["total_students"] = total_students
+        context["total_staff"] = total_staff
+        return context
+    
 
 
 class SiteConfigView(LoginRequiredMixin, View):
@@ -352,16 +354,15 @@ def daily_attendance(request):
         semester=sem, department=dept)[:10])
     return render(request, 'course/attendance_daily.html', {'form': form})
 
-# @user_passes_test(user_is_staff)
-# class AccountListView(LoginRequiredMixin, UserPassesTestMixin, ListView):
-#     model = User
-#     template_name = 'admin_tools/accounts_list.html'
-#     context_object_name = 'accounts'
-# 
-#     def test_func(self):
-#         return self.request.user.is_staff
-# 
-#     def handle_no_permission(self):
-#         if self.request.user.is_authenticated:
-#             return redirect('account:home')
-#         return redirect('account:login')
+class AccountListView(LoginRequiredMixin, UserPassesTestMixin, ListView):
+    model = User
+    template_name = 'admin_tools/accounts_list.html'
+    context_object_name = 'accounts'
+
+    def test_func(self):
+        return self.request.user.is_staff
+
+    def handle_no_permission(self):
+        if self.request.user.is_authenticated:
+            return redirect('account:home')
+        return redirect('account:login')

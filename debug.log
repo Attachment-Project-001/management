@@ -1,1879 +1,365 @@
-INFO 2021-09-24 07:08:07,872 Watching for file changes with StatReloader
-INFO 2021-09-24 08:40:21,100 Watching for file changes with StatReloader
-INFO 2021-09-24 08:57:29,384 Watching for file changes with StatReloader
-ERROR 2021-09-24 08:57:39,237 Internal Server Error: /
+INFO 2023-04-05 06:39:12,519 Watching for file changes with StatReloader
+WARNING 2023-04-05 06:46:12,060 Not Found: /django-admin/staff/userprofile/af46eae3-0a81-471a-86dc-940335732f22/change/
+WARNING 2023-04-05 06:46:12,060 "GET /django-admin/staff/userprofile/af46eae3-0a81-471a-86dc-940335732f22/change/ HTTP/1.1" 404 6539
+WARNING 2023-04-05 06:46:12,150 Not Found: /favicon.ico
+WARNING 2023-04-05 06:46:12,151 "GET /favicon.ico HTTP/1.1" 404 6347
+INFO 2023-04-05 06:47:06,693 "GET / HTTP/1.1" 302 0
+WARNING 2023-04-05 06:47:06,735 Not Found: /accounts/login/
+WARNING 2023-04-05 06:47:06,735 "GET /accounts/login/?next=/ HTTP/1.1" 404 6366
+INFO 2023-04-05 06:47:18,990 "GET / HTTP/1.1" 302 0
+WARNING 2023-04-05 06:47:19,008 Not Found: /accounts/login/
+WARNING 2023-04-05 06:47:19,009 "GET /accounts/login/?next=/ HTTP/1.1" 404 6366
+INFO 2023-04-05 06:47:27,392 "GET / HTTP/1.1" 302 0
+WARNING 2023-04-05 06:47:27,410 Not Found: /accounts/login/
+WARNING 2023-04-05 06:47:27,411 "GET /accounts/login/?next=/ HTTP/1.1" 404 6366
+INFO 2023-04-05 06:47:37,300 "GET / HTTP/1.1" 302 0
+WARNING 2023-04-05 06:47:37,310 Not Found: /accounts/login/
+WARNING 2023-04-05 06:47:37,310 "GET /accounts/login/?next=/ HTTP/1.1" 404 6366
+INFO 2023-04-05 06:47:48,321 "GET /auth/login/ HTTP/1.1" 200 3835
+INFO 2023-04-05 06:47:48,368 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2023-04-05 06:47:48,369 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-04-05 06:47:48,369 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2023-04-05 06:47:48,371 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2023-04-05 06:47:48,372 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2023-04-05 06:47:48,374 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2023-04-05 06:47:48,379 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2023-04-05 06:47:48,380 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2023-04-05 06:47:48,386 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2023-04-05 06:47:48,387 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2023-04-05 06:47:48,387 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2023-04-05 06:47:48,387 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2023-04-05 06:47:48,391 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2023-04-05 06:47:53,091 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2023-04-05 06:50:25,885 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2023-04-05 06:50:25,936 "GET / HTTP/1.1" 200 13657
+INFO 2023-04-05 06:50:26,001 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2023-04-05 06:50:26,009 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2023-04-05 06:50:48,801 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-04-05 06:54:49,272 "GET /session/list/ HTTP/1.1" 200 12510
+INFO 2023-04-05 06:54:59,596 "GET /term/list/ HTTP/1.1" 200 13143
+INFO 2023-04-05 06:55:03,026 "GET /subject/list/ HTTP/1.1" 200 13470
+INFO 2023-04-05 06:55:08,816 "GET /class/list/ HTTP/1.1" 200 14012
+INFO 2023-04-05 06:55:14,935 "GET /results/view/all HTTP/1.1" 200 11881
+INFO 2023-04-05 06:55:45,351 "GET /results/view/all HTTP/1.1" 200 11881
+INFO 2023-04-05 06:55:48,771 "GET /results/edit-results/ HTTP/1.1" 200 14953
+INFO 2023-04-05 06:55:54,782 "GET /finance/list/ HTTP/1.1" 200 11267
+INFO 2023-04-05 06:56:08,113 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 11770
+INFO 2023-04-05 06:56:21,834 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2023-04-05 06:56:21,869 "GET /finance/list/ HTTP/1.1" 200 11263
+INFO 2023-04-05 06:56:33,135 "GET /finance/bulk-invoice/ HTTP/1.1" 200 10203
+INFO 2023-04-05 06:56:38,846 "GET /finance/create/ HTTP/1.1" 200 17142
+INFO 2023-04-05 06:57:13,901 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2023-04-05 06:57:13,917 "GET /finance/list HTTP/1.1" 301 0
+INFO 2023-04-05 06:57:14,013 "GET /finance/list/ HTTP/1.1" 200 11712
+INFO 2023-04-05 06:58:14,436 "GET /staff/list/ HTTP/1.1" 200 15792
+INFO 2023-04-05 06:58:30,191 "GET /staff/15/ HTTP/1.1" 200 12090
+INFO 2023-04-05 06:58:30,210 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2023-04-05 06:58:38,102 "GET /current-session/ HTTP/1.1" 200 11430
+ERROR 2023-04-05 06:58:44,890 Internal Server Error: /current-session/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/PythonProjects/School/school/apps/management/middleware.py", line 9, in __call__
-    current_session = AcademicSession.objects.get(current=True)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/apps/management/views.py", line 283, in post
+    return render(request, self.template_name, {"form": form})
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/ogaba/Desktop/assignment/school/apps/management/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
-    raise self.model.DoesNotExist(
-apps.management.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
-ERROR 2021-09-24 08:57:39,246 "GET / HTTP/1.1" 500 73670
-INFO 2021-09-24 09:00:28,889 "GET /admin HTTP/1.1" 301 0
-ERROR 2021-09-24 09:00:29,130 Internal Server Error: /admin/
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 06:58:44,892 "POST /current-session/ HTTP/1.1" 500 123572
+ERROR 2023-04-05 07:44:56,007 Internal Server Error: /current-session/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/PythonProjects/School/school/apps/management/middleware.py", line 9, in __call__
-    current_session = AcademicSession.objects.get(current=True)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+  File "/home/ogaba/Desktop/assignment/school/apps/management/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
-    raise self.model.DoesNotExist(
-apps.management.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
-ERROR 2021-09-24 09:00:29,132 "GET /admin/ HTTP/1.1" 500 73505
-INFO 2021-09-24 09:02:56,410 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:02:57,824 Watching for file changes with StatReloader
-INFO 2021-09-24 09:03:01,178 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:03:02,606 Watching for file changes with StatReloader
-INFO 2021-09-24 09:04:39,345 "GET /admin/ HTTP/1.1" 302 0
-INFO 2021-09-24 09:04:39,723 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
-INFO 2021-09-24 09:04:39,999 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
-INFO 2021-09-24 09:04:40,008 "GET /static/admin/css/login.css HTTP/1.1" 200 939
-INFO 2021-09-24 09:04:40,035 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
-INFO 2021-09-24 09:04:40,036 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
-INFO 2021-09-24 09:04:40,037 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
-INFO 2021-09-24 09:04:40,091 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
-INFO 2021-09-24 09:04:40,537 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
-INFO 2021-09-24 09:04:40,541 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
-INFO 2021-09-24 09:04:54,252 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
-INFO 2021-09-24 09:04:54,552 "GET /admin/ HTTP/1.1" 200 3329
-INFO 2021-09-24 09:04:54,702 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
-INFO 2021-09-24 09:04:55,185 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
-INFO 2021-09-24 09:04:55,186 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
-INFO 2021-09-24 09:04:55,370 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
-INFO 2021-09-24 09:05:00,289 "GET /admin/auth/user/ HTTP/1.1" 200 7851
-INFO 2021-09-24 09:05:00,451 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
-INFO 2021-09-24 09:05:00,482 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
-INFO 2021-09-24 09:05:00,514 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
-INFO 2021-09-24 09:05:00,519 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
-INFO 2021-09-24 09:05:00,533 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
-INFO 2021-09-24 09:05:00,548 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
-INFO 2021-09-24 09:05:00,560 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
-INFO 2021-09-24 09:05:00,582 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
-INFO 2021-09-24 09:05:00,661 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
-INFO 2021-09-24 09:05:00,731 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
-INFO 2021-09-24 09:05:00,745 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
-INFO 2021-09-24 09:05:00,768 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
-INFO 2021-09-24 09:05:01,394 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
-INFO 2021-09-24 09:05:01,442 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
-INFO 2021-09-24 09:06:16,033 "GET / HTTP/1.1" 200 13307
-INFO 2021-09-24 09:06:16,473 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
-INFO 2021-09-24 09:06:16,531 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
-INFO 2021-09-24 09:06:16,533 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
-INFO 2021-09-24 09:06:16,547 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
-INFO 2021-09-24 09:06:16,549 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
-INFO 2021-09-24 09:06:16,559 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
-INFO 2021-09-24 09:06:16,648 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
-INFO 2021-09-24 09:06:16,662 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
-INFO 2021-09-24 09:06:16,673 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
-INFO 2021-09-24 09:06:16,681 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
-INFO 2021-09-24 09:06:16,754 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
-INFO 2021-09-24 09:06:16,789 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
-INFO 2021-09-24 09:06:17,062 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
-INFO 2021-09-24 09:06:19,822 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
-INFO 2021-09-24 09:06:19,827 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
-INFO 2021-09-24 09:07:45,731 "GET / HTTP/1.1" 200 13201
-INFO 2021-09-24 09:09:19,339 "GET / HTTP/1.1" 200 13205
-INFO 2021-09-24 09:13:18,308 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:20,409 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:22,121 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:23,696 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:32,304 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:33,742 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:35,312 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:37,672 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:41,588 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:43,400 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:45,576 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:47,020 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:50,447 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:51,787 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:55,156 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:13:56,379 Watching for file changes with StatReloader
-INFO 2021-09-24 09:13:59,756 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:01,889 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:06,516 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:08,314 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:10,582 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:11,939 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:14,440 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:16,912 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:20,486 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:22,381 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:25,947 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:27,302 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:29,720 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:31,871 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:34,431 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:35,724 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:43,028 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:44,775 Watching for file changes with StatReloader
-INFO 2021-09-24 09:14:46,227 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:14:47,545 Watching for file changes with StatReloader
-INFO 2021-09-24 09:15:44,524 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:15:46,431 Watching for file changes with StatReloader
-INFO 2021-09-24 09:15:49,143 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:15:51,162 Watching for file changes with StatReloader
-INFO 2021-09-24 09:15:52,757 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:15:54,052 Watching for file changes with StatReloader
-INFO 2021-09-24 09:15:55,588 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:15:57,579 Watching for file changes with StatReloader
-INFO 2021-09-24 09:16:01,144 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:16:03,385 Watching for file changes with StatReloader
-INFO 2021-09-24 09:16:08,161 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:16:10,520 Watching for file changes with StatReloader
-INFO 2021-09-24 09:16:12,642 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:16:14,234 Watching for file changes with StatReloader
-INFO 2021-09-24 09:16:56,938 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:16:58,345 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:02,212 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:03,833 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:09,220 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:11,106 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:14,262 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:16,261 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:25,787 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:27,140 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:29,415 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:31,106 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:33,550 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:34,873 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:38,919 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:40,531 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:45,595 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:46,907 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:48,915 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:50,967 Watching for file changes with StatReloader
-INFO 2021-09-24 09:17:54,229 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:17:55,763 Watching for file changes with StatReloader
-INFO 2021-09-24 09:18:08,294 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:18:10,183 Watching for file changes with StatReloader
-INFO 2021-09-24 09:18:12,363 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:18:13,804 Watching for file changes with StatReloader
-INFO 2021-09-24 09:18:20,243 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:18:21,995 Watching for file changes with StatReloader
-INFO 2021-09-24 09:18:24,096 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:18:25,606 Watching for file changes with StatReloader
-INFO 2021-09-24 09:19:20,532 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:19:22,166 Watching for file changes with StatReloader
-INFO 2021-09-24 09:20:36,065 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:20:37,845 Watching for file changes with StatReloader
-INFO 2021-09-24 09:20:47,693 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:20:48,974 Watching for file changes with StatReloader
-INFO 2021-09-24 09:20:53,503 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:20:55,613 Watching for file changes with StatReloader
-INFO 2021-09-24 09:20:59,157 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:21:00,539 Watching for file changes with StatReloader
-INFO 2021-09-24 09:21:04,574 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 09:21:06,428 Watching for file changes with StatReloader
-INFO 2021-09-24 09:28:05,780 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:28:07,473 Watching for file changes with StatReloader
-INFO 2021-09-24 09:28:10,213 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:28:12,456 Watching for file changes with StatReloader
-INFO 2021-09-24 09:28:38,105 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:28:40,788 Watching for file changes with StatReloader
-INFO 2021-09-24 09:29:11,537 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:29:13,342 Watching for file changes with StatReloader
-INFO 2021-09-24 09:29:17,546 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:29:19,689 Watching for file changes with StatReloader
-INFO 2021-09-24 09:29:22,206 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:29:23,800 Watching for file changes with StatReloader
-INFO 2021-09-24 09:29:37,584 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:29:39,094 Watching for file changes with StatReloader
-INFO 2021-09-24 09:29:42,287 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:29:43,692 Watching for file changes with StatReloader
-INFO 2021-09-24 09:29:45,841 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:29:47,524 Watching for file changes with StatReloader
-INFO 2021-09-24 09:32:57,321 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:32:58,669 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:05,880 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:07,511 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:10,131 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:11,310 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:13,832 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:15,742 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:18,509 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:20,580 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:29,257 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:31,181 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:32,644 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:34,289 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:36,221 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:38,666 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:41,083 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:42,520 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:45,977 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:47,694 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:50,149 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:51,941 Watching for file changes with StatReloader
-INFO 2021-09-24 09:33:54,432 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:33:57,767 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:00,985 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:34:02,564 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:32,281 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:34:34,818 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:37,027 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:34:38,557 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:45,054 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:34:46,411 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:48,828 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:34:49,984 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:55,458 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:34:57,557 Watching for file changes with StatReloader
-INFO 2021-09-24 09:34:59,029 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:00,499 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:06,000 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:07,398 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:08,913 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:10,064 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:12,444 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:14,717 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:16,314 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:17,758 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:23,288 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:25,798 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:36,556 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:38,309 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:42,783 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:44,844 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:46,533 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:47,640 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:53,190 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:55,048 Watching for file changes with StatReloader
-INFO 2021-09-24 09:35:57,470 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:35:58,853 Watching for file changes with StatReloader
-INFO 2021-09-24 09:36:35,428 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:36:37,336 Watching for file changes with StatReloader
-INFO 2021-09-24 09:36:38,756 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:36:40,166 Watching for file changes with StatReloader
-INFO 2021-09-24 09:36:43,267 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 09:36:44,631 Watching for file changes with StatReloader
-INFO 2021-09-24 10:40:48,178 Watching for file changes with StatReloader
-INFO 2021-09-24 10:57:19,964 Watching for file changes with StatReloader
-INFO 2021-09-24 10:57:33,700 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 10:57:34,919 Watching for file changes with StatReloader
-INFO 2021-09-24 10:57:53,034 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 10:57:54,245 Watching for file changes with StatReloader
-INFO 2021-09-24 10:58:49,160 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 10:58:50,311 Watching for file changes with StatReloader
-INFO 2021-09-24 10:58:54,980 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 10:58:56,265 Watching for file changes with StatReloader
-INFO 2021-09-24 10:59:57,749 Watching for file changes with StatReloader
-INFO 2021-09-24 11:05:28,459 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:05:30,439 Watching for file changes with StatReloader
-INFO 2021-09-24 11:05:42,150 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:05:43,419 Watching for file changes with StatReloader
-INFO 2021-09-24 11:06:24,899 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:06:27,069 Watching for file changes with StatReloader
-INFO 2021-09-24 11:06:43,909 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:06:45,948 Watching for file changes with StatReloader
-INFO 2021-09-24 11:06:55,279 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:06:56,739 Watching for file changes with StatReloader
-INFO 2021-09-24 11:07:03,038 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:07:04,900 Watching for file changes with StatReloader
-INFO 2021-09-24 11:07:13,194 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:07:14,537 Watching for file changes with StatReloader
-INFO 2021-09-24 11:07:21,986 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:07:23,673 Watching for file changes with StatReloader
-INFO 2021-09-24 11:07:30,163 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:07:32,263 Watching for file changes with StatReloader
-INFO 2021-09-24 11:07:44,166 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:07:45,758 Watching for file changes with StatReloader
-INFO 2021-09-24 11:07:56,271 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:07:57,814 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:05,181 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:07,390 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:17,739 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:19,566 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:24,803 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:26,682 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:28,980 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:30,806 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:38,406 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:40,323 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:44,777 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:46,366 Watching for file changes with StatReloader
-INFO 2021-09-24 11:08:54,837 /home/ogaba/PythonProjects/School/school/apps/management/views.py changed, reloading.
-INFO 2021-09-24 11:08:56,669 Watching for file changes with StatReloader
-ERROR 2021-09-24 11:09:05,497 Internal Server Error: /
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 07:44:56,008 "GET /current-session/ HTTP/1.1" 500 71477
+ERROR 2023-04-05 07:45:03,831 Internal Server Error: /staff/15/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
-    return Database.Cursor.execute(self, query, params)
-sqlite3.OperationalError: no such column: management_academicsession.created_by_id
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/PythonProjects/School/school/apps/management/middleware.py", line 9, in __call__
-    current_session = AcademicSession.objects.get(current=True)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+  File "/home/ogaba/Desktop/assignment/school/apps/management/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 431, in get
-    num = len(clone)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 262, in __len__
-    self._fetch_all()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
-    self._result_cache = list(self._iterable_class(self))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
-    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
-    return Database.Cursor.execute(self, query, params)
-django.db.utils.OperationalError: no such column: management_academicsession.created_by_id
-ERROR 2021-09-24 11:09:05,518 "GET / HTTP/1.1" 500 136093
-INFO 2021-09-24 11:20:21,632 "GET / HTTP/1.1" 200 13194
-INFO 2021-09-24 11:20:34,320 "GET /staff/list/ HTTP/1.1" 200 10140
-INFO 2021-09-24 11:20:40,733 "GET /staff/create/ HTTP/1.1" 200 14595
-INFO 2021-09-24 11:21:41,988 "GET /staff/list/ HTTP/1.1" 200 10140
-INFO 2021-09-24 11:21:47,405 "GET /staff/create/ HTTP/1.1" 200 14595
-INFO 2021-09-24 11:21:52,423 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 11:21:57,005 "GET /students/create/ HTTP/1.1" 200 14334
-INFO 2021-09-24 11:23:17,639 "GET /staff/list/ HTTP/1.1" 200 10140
-INFO 2021-09-24 11:23:41,989 "GET /staff/create/ HTTP/1.1" 200 14594
-INFO 2021-09-24 11:23:54,243 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 11:24:02,614 "GET /finance/list/ HTTP/1.1" 200 10378
-INFO 2021-09-24 11:24:06,695 "GET /results/create/ HTTP/1.1" 200 10839
-INFO 2021-09-24 11:29:31,493 /home/ogaba/PythonProjects/School/school/apps/management/migrations/0002_alter_siteconfig_value.py changed, reloading.
-INFO 2021-09-24 11:29:34,044 Watching for file changes with StatReloader
-INFO 2021-09-24 12:00:15,164 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 12:00:17,245 Watching for file changes with StatReloader
-INFO 2021-09-24 12:00:19,913 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 12:00:21,732 Watching for file changes with StatReloader
-INFO 2021-09-24 12:00:25,429 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 12:00:27,181 Watching for file changes with StatReloader
-INFO 2021-09-24 12:00:51,532 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 12:00:53,102 Watching for file changes with StatReloader
-INFO 2021-09-24 12:00:55,948 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 12:00:57,528 Watching for file changes with StatReloader
-INFO 2021-09-24 12:04:49,772 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 12:04:51,397 Watching for file changes with StatReloader
-INFO 2021-09-24 12:04:52,924 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 12:04:54,934 Watching for file changes with StatReloader
-INFO 2021-09-24 12:04:56,572 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 12:04:58,534 Watching for file changes with StatReloader
-INFO 2021-09-24 12:11:37,368 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 12:11:39,717 Watching for file changes with StatReloader
-INFO 2021-09-24 12:11:41,157 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 12:11:43,525 Watching for file changes with StatReloader
-INFO 2021-09-24 12:11:47,011 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 12:11:49,173 Watching for file changes with StatReloader
-INFO 2021-09-24 12:12:12,187 /home/ogaba/PythonProjects/School/school/apps/management/models.py changed, reloading.
-INFO 2021-09-24 12:12:13,569 Watching for file changes with StatReloader
-INFO 2021-09-24 12:40:08,677 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:40:24,753 "GET /staff/list/ HTTP/1.1" 200 10150
-INFO 2021-09-24 12:40:33,632 "GET /staff/list/ HTTP/1.1" 200 10150
-INFO 2021-09-24 12:40:46,624 "GET /staff/create/ HTTP/1.1" 200 14858
-INFO 2021-09-24 12:41:40,974 "GET /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 12:41:48,104 "GET /staff/list/ HTTP/1.1" 200 10150
-INFO 2021-09-24 12:41:52,504 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:42:03,086 "GET /term/list/ HTTP/1.1" 200 12684
-INFO 2021-09-24 12:42:10,308 "GET /session/list/ HTTP/1.1" 200 12051
-INFO 2021-09-24 12:43:17,520 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:43:22,028 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:43:25,285 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:45:41,605 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:45:45,354 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 12:46:42,705 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:05:51,642 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:12:30,286 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:13:38,572 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:14:04,861 Watching for file changes with StatReloader
-INFO 2021-09-24 13:14:12,860 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:14:17,380 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:39:33,315 "GET /students/create/ HTTP/1.1" 200 14286
-INFO 2021-09-24 13:41:10,259 "POST /students/create/ HTTP/1.1" 302 0
-INFO 2021-09-24 13:41:10,566 "GET /students/17/ HTTP/1.1" 200 11723
-INFO 2021-09-24 13:41:13,626 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 200 53453
-INFO 2021-09-24 13:43:05,429 "GET /students/list HTTP/1.1" 200 10401
-INFO 2021-09-24 13:43:26,164 "GET /students/17/ HTTP/1.1" 200 11577
-INFO 2021-09-24 13:43:26,848 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-INFO 2021-09-24 13:43:39,474 "GET /students/16/ HTTP/1.1" 200 11598
-INFO 2021-09-24 13:43:40,037 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
-INFO 2021-09-24 13:44:19,984 "GET /students/1/ HTTP/1.1" 200 11592
-INFO 2021-09-24 13:44:40,186 "GET /staff/1/ HTTP/1.1" 200 11213
-INFO 2021-09-24 13:46:09,493 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 13:46:17,790 Watching for file changes with StatReloader
-INFO 2021-09-24 13:46:45,865 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 13:46:51,312 Watching for file changes with StatReloader
-INFO 2021-09-24 13:47:00,382 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 13:47:02,141 Watching for file changes with StatReloader
-INFO 2021-09-24 13:47:04,389 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 13:47:06,826 Watching for file changes with StatReloader
-INFO 2021-09-24 13:47:12,561 /home/ogaba/PythonProjects/School/school/apps/students/models.py changed, reloading.
-INFO 2021-09-24 13:47:13,879 Watching for file changes with StatReloader
-WARNING 2021-09-24 13:49:03,118 Not Found: /student/1/
-WARNING 2021-09-24 13:49:03,141 "GET /student/1/ HTTP/1.1" 404 6344
-ERROR 2021-09-24 13:49:31,881 Internal Server Error: /students/17/
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 07:45:03,831 "GET /staff/15/ HTTP/1.1" 500 71546
+INFO 2023-04-05 07:46:55,477 /home/ogaba/Desktop/assignment/school/apps/management/middleware.py changed, reloading.
+INFO 2023-04-05 07:46:55,900 Watching for file changes with StatReloader
+INFO 2023-04-05 07:47:01,183 /home/ogaba/Desktop/assignment/school/apps/management/middleware.py changed, reloading.
+INFO 2023-04-05 07:47:01,527 Watching for file changes with StatReloader
+INFO 2023-04-05 07:47:06,808 /home/ogaba/Desktop/assignment/school/apps/management/middleware.py changed, reloading.
+INFO 2023-04-05 07:47:07,201 Watching for file changes with StatReloader
+INFO 2023-04-05 07:47:13,552 /home/ogaba/Desktop/assignment/school/apps/management/middleware.py changed, reloading.
+INFO 2023-04-05 07:47:13,900 Watching for file changes with StatReloader
+INFO 2023-04-05 07:47:17,145 /home/ogaba/Desktop/assignment/school/apps/management/middleware.py changed, reloading.
+INFO 2023-04-05 07:47:17,598 Watching for file changes with StatReloader
+INFO 2023-04-05 07:47:26,908 /home/ogaba/Desktop/assignment/school/apps/management/middleware.py changed, reloading.
+INFO 2023-04-05 07:47:27,221 Watching for file changes with StatReloader
+ERROR 2023-04-05 07:47:31,808 Internal Server Error: /staff/15/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
-    return Database.Cursor.execute(self, query, params)
-sqlite3.OperationalError: no such column: students_student.student_email
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/detail.py", line 106, in get
-    self.object = self.get_object()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/detail.py", line 52, in get_object
-    obj = queryset.get()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 431, in get
-    num = len(clone)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 262, in __len__
-    self._fetch_all()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
-    self._result_cache = list(self._iterable_class(self))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
-    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
-    return Database.Cursor.execute(self, query, params)
-django.db.utils.OperationalError: no such column: students_student.student_email
-ERROR 2021-09-24 13:49:31,902 "GET /students/17/ HTTP/1.1" 500 162083
-INFO 2021-09-24 13:51:16,252 "GET /students/17/ HTTP/1.1" 200 11577
-INFO 2021-09-24 13:51:20,567 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-INFO 2021-09-24 13:53:20,334 "GET /students/17/ HTTP/1.1" 200 12221
-INFO 2021-09-24 13:53:33,900 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-INFO 2021-09-24 13:58:29,645 "GET /students/17/ HTTP/1.1" 200 12235
-INFO 2021-09-24 13:58:35,319 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-INFO 2021-09-24 14:02:07,878 "GET /students/17/ HTTP/1.1" 200 12245
-INFO 2021-09-24 14:02:16,709 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-INFO 2021-09-24 16:34:18,589 Watching for file changes with StatReloader
-INFO 2021-09-24 16:36:15,668 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-WARNING 2021-09-24 16:36:23,048 Not Found: /favicon.ico
-WARNING 2021-09-24 16:36:23,049 "GET /favicon.ico HTTP/1.1" 404 6347
-INFO 2021-09-24 16:36:28,754 "GET /students/17/ HTTP/1.1" 200 12245
-INFO 2021-09-24 16:36:55,650 "GET /students/16/ HTTP/1.1" 200 12295
-INFO 2021-09-24 16:37:15,075 "GET /students/1/ HTTP/1.1" 200 12291
-INFO 2021-09-24 16:37:26,884 "GET /students/2/ HTTP/1.1" 200 12300
-INFO 2021-09-24 16:37:44,267 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 16:37:51,676 "GET /students/list HTTP/1.1" 200 10478
-INFO 2021-09-24 16:37:57,244 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 17:34:41,878 "GET /staff/1/ HTTP/1.1" 200 11547
-INFO 2021-09-24 17:35:13,195 /home/ogaba/PythonProjects/School/school/apps/staff/views.py changed, reloading.
-INFO 2021-09-24 17:35:20,656 Watching for file changes with StatReloader
-INFO 2021-09-24 17:36:07,787 /home/ogaba/PythonProjects/School/school/apps/students/views.py changed, reloading.
-INFO 2021-09-24 17:36:10,389 Watching for file changes with StatReloader
-INFO 2021-09-24 17:36:14,944 "GET /students/list HTTP/1.1" 200 10478
-INFO 2021-09-24 17:36:22,567 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 17:36:44,435 "GET /students/list HTTP/1.1" 200 10478
-INFO 2021-09-24 17:38:55,211 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 17:39:00,870 "GET /students/list HTTP/1.1" 200 10479
-INFO 2021-09-24 17:39:06,699 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 17:39:27,024 "GET /students/list HTTP/1.1" 200 10479
-INFO 2021-09-24 17:40:35,053 "GET /students/list HTTP/1.1" 200 17436
-INFO 2021-09-24 17:40:50,075 "GET /students/5/ HTTP/1.1" 200 12277
-INFO 2021-09-24 17:40:59,000 "GET /students/list HTTP/1.1" 200 17436
-INFO 2021-09-24 17:41:14,022 "GET /finance/list/ HTTP/1.1" 200 10378
-INFO 2021-09-24 17:41:19,750 "GET /finance/bulk-invoice/ HTTP/1.1" 200 9744
-INFO 2021-09-24 17:41:27,069 "GET /finance/list/ HTTP/1.1" 200 10378
-INFO 2021-09-24 17:41:32,783 "GET /finance/create/ HTTP/1.1" 200 15472
-INFO 2021-09-24 17:42:29,510 "POST /finance/create/ HTTP/1.1" 302 0
-INFO 2021-09-24 17:42:29,654 "GET /finance/list HTTP/1.1" 301 0
-INFO 2021-09-24 17:42:29,928 "GET /finance/list/ HTTP/1.1" 200 10804
-INFO 2021-09-24 17:42:45,216 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 11304
-INFO 2021-09-24 17:43:00,194 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
-INFO 2021-09-24 17:43:00,483 "GET /finance/list/ HTTP/1.1" 200 10808
-INFO 2021-09-24 17:43:09,562 "GET /students/list HTTP/1.1" 200 17436
-INFO 2021-09-24 17:43:22,062 "GET /students/17/ HTTP/1.1" 200 12744
-INFO 2021-09-24 17:43:22,438 "GET /media/students/passports/BigMomPastryLogo.jpg HTTP/1.1" 304 0
-INFO 2021-09-24 17:43:32,490 "GET /results/create/ HTTP/1.1" 200 14353
-INFO 2021-09-24 17:43:45,926 "POST /results/create/ HTTP/1.1" 200 11992
-INFO 2021-09-24 17:44:04,320 "POST /results/create/ HTTP/1.1" 302 0
-INFO 2021-09-24 17:44:04,874 "GET /results/edit-results/ HTTP/1.1" 200 14476
-INFO 2021-09-24 17:45:11,190 "POST /results/edit-results/ HTTP/1.1" 302 0
-INFO 2021-09-24 17:45:11,679 "GET /results/edit-results/ HTTP/1.1" 200 14637
-ERROR 2021-09-24 17:45:18,861 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if 80 <= self.marks <= 100:
-AttributeError: 'Result' object has no attribute 'marks'
-ERROR 2021-09-24 17:45:18,870 "GET /results/view/all HTTP/1.1" 500 209307
-INFO 2021-09-24 17:47:25,110 /home/ogaba/PythonProjects/School/school/apps/results/views.py changed, reloading.
-INFO 2021-09-24 17:47:30,688 Watching for file changes with StatReloader
-INFO 2021-09-24 17:47:50,251 "POST /results/edit-results/ HTTP/1.1" 302 0
-INFO 2021-09-24 17:47:51,102 "GET /results/edit-results/ HTTP/1.1" 200 14637
-ERROR 2021-09-24 17:47:59,696 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if 80 <= self.marks <= 100:
-AttributeError: 'Result' object has no attribute 'marks'
-ERROR 2021-09-24 17:47:59,707 "GET /results/view/all HTTP/1.1" 500 209307
-INFO 2021-09-24 17:49:08,136 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:10,323 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:13,370 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:14,654 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:27,235 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:28,908 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:32,196 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:33,778 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:36,982 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:38,303 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:40,671 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:42,076 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:44,821 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:46,702 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:48,961 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:51,343 Watching for file changes with StatReloader
-INFO 2021-09-24 17:49:54,102 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:49:56,003 Watching for file changes with StatReloader
-ERROR 2021-09-24 17:49:59,161 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if 80 <= self.total_score <= 100:
-TypeError: '<=' not supported between instances of 'int' and 'method'
-ERROR 2021-09-24 17:49:59,223 "GET /results/view/all HTTP/1.1" 500 209804
-INFO 2021-09-24 17:50:37,152 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:50:39,029 Watching for file changes with StatReloader
-INFO 2021-09-24 17:50:41,416 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:50:42,861 Watching for file changes with StatReloader
-INFO 2021-09-24 17:50:51,639 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:50:52,966 Watching for file changes with StatReloader
-INFO 2021-09-24 17:50:55,496 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:50:56,698 Watching for file changes with StatReloader
-INFO 2021-09-24 17:51:05,455 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:51:06,785 Watching for file changes with StatReloader
-INFO 2021-09-24 17:51:09,499 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:51:10,679 Watching for file changes with StatReloader
-INFO 2021-09-24 17:51:24,464 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:51:25,673 Watching for file changes with StatReloader
-INFO 2021-09-24 17:51:29,328 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:51:30,583 Watching for file changes with StatReloader
-INFO 2021-09-24 17:51:33,119 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:51:34,415 Watching for file changes with StatReloader
-INFO 2021-09-24 17:51:35,883 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:51:37,393 Watching for file changes with StatReloader
-ERROR 2021-09-24 17:51:42,536 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if (self.total_score) >= 100:
-TypeError: '>=' not supported between instances of 'method' and 'int'
-ERROR 2021-09-24 17:51:42,545 "GET /results/view/all HTTP/1.1" 500 209790
-ERROR 2021-09-24 17:51:48,029 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if (self.total_score) >= 100:
-TypeError: '>=' not supported between instances of 'method' and 'int'
-ERROR 2021-09-24 17:51:48,033 "GET /results/view/all HTTP/1.1" 500 209790
-INFO 2021-09-24 17:52:11,345 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:52:12,762 Watching for file changes with StatReloader
-INFO 2021-09-24 17:52:37,179 "GET /results/edit-results/ HTTP/1.1" 200 14494
-INFO 2021-09-24 17:58:21,359 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:58:23,946 Watching for file changes with StatReloader
-INFO 2021-09-24 17:58:26,513 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:58:30,177 Watching for file changes with StatReloader
-INFO 2021-09-24 17:58:32,604 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:58:33,883 Watching for file changes with StatReloader
-INFO 2021-09-24 17:58:54,850 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:58:56,474 Watching for file changes with StatReloader
-ERROR 2021-09-24 17:59:03,984 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if 80 <= self.total_score <= 100:
-TypeError: '<=' not supported between instances of 'int' and 'method'
-ERROR 2021-09-24 17:59:04,000 "GET /results/view/all HTTP/1.1" 500 209652
-INFO 2021-09-24 17:59:49,432 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:59:51,116 Watching for file changes with StatReloader
-INFO 2021-09-24 17:59:57,252 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 17:59:58,804 Watching for file changes with StatReloader
-ERROR 2021-09-24 18:00:04,779 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 29, in grade
-    if 80 <= total_total <= 100:
-NameError: name 'total_total' is not defined
-ERROR 2021-09-24 18:00:04,809 "GET /results/view/all HTTP/1.1" 500 209314
-INFO 2021-09-24 18:01:51,066 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:01:52,449 Watching for file changes with StatReloader
-INFO 2021-09-24 18:01:57,883 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:01:59,966 Watching for file changes with StatReloader
-INFO 2021-09-24 18:02:05,344 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:02:06,611 Watching for file changes with StatReloader
-ERROR 2021-09-24 18:02:10,913 Internal Server Error: /results/view/all
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/PythonProjects/School/school/apps/results/views.py", line 96, in get
-    return render(request, "results/all_results.html", context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 988, in render
-    output = self.filter_expression.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
-    obj = self.var.resolve(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
-    value = self._resolve_lookup(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
-    current = current()
-  File "/home/ogaba/PythonProjects/School/school/apps/results/models.py", line 31, in grade
-    elif 60 <= self.marks < 80:
-AttributeError: 'Result' object has no attribute 'marks'
-ERROR 2021-09-24 18:02:10,963 "GET /results/view/all HTTP/1.1" 500 209378
-INFO 2021-09-24 18:02:33,497 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:02:35,495 Watching for file changes with StatReloader
-INFO 2021-09-24 18:02:39,871 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:02:42,000 Watching for file changes with StatReloader
-INFO 2021-09-24 18:02:50,908 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:02:53,966 Watching for file changes with StatReloader
-INFO 2021-09-24 18:03:00,043 "GET /results/view/all HTTP/1.1" 200 11424
-INFO 2021-09-24 18:03:16,455 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:03:18,183 Watching for file changes with StatReloader
-INFO 2021-09-24 18:03:21,195 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:03:22,545 Watching for file changes with StatReloader
-INFO 2021-09-24 18:03:24,969 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:03:26,803 Watching for file changes with StatReloader
-INFO 2021-09-24 18:03:29,585 /home/ogaba/PythonProjects/School/school/apps/results/models.py changed, reloading.
-INFO 2021-09-24 18:03:30,971 Watching for file changes with StatReloader
-INFO 2021-09-24 18:03:34,709 "GET /results/view/all HTTP/1.1" 200 11422
-INFO 2021-09-24 18:04:13,005 "GET /results/view/all HTTP/1.1" 200 11422
-INFO 2021-09-24 18:04:22,504 "GET /results/edit-results/ HTTP/1.1" 200 14494
-INFO 2021-09-24 18:04:28,818 "GET /results/create/ HTTP/1.1" 200 14353
-INFO 2021-09-24 18:04:35,131 "GET /results/edit-results/ HTTP/1.1" 200 14494
-INFO 2021-09-24 18:04:53,520 "GET /session/list/ HTTP/1.1" 200 12051
-INFO 2021-09-24 18:05:16,325 "GET /term/list/ HTTP/1.1" 200 12684
-INFO 2021-09-24 18:05:27,818 "GET /term/2/update/ HTTP/1.1" 200 10602
-INFO 2021-09-24 18:05:54,454 "GET /subject/list/ HTTP/1.1" 200 13011
-INFO 2021-09-24 18:05:59,623 "GET /subject/3/update/ HTTP/1.1" 200 10281
-INFO 2021-09-24 18:06:08,395 "GET /class/list/ HTTP/1.1" 200 13553
-INFO 2021-09-24 18:06:13,422 "GET /class/3/update/ HTTP/1.1" 200 10279
-INFO 2021-09-24 18:06:18,114 "POST /class/3/update/ HTTP/1.1" 302 0
-INFO 2021-09-24 18:06:18,313 "GET /class/list/ HTTP/1.1" 200 13695
-INFO 2021-09-24 18:06:31,726 "GET /session/list/ HTTP/1.1" 200 12051
-INFO 2021-09-24 18:06:54,418 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 18:06:58,630 "GET /staff/1/ HTTP/1.1" 200 11547
-INFO 2021-09-24 18:07:02,868 "GET /staff/1/update/ HTTP/1.1" 200 15045
-INFO 2021-09-24 18:07:27,313 "GET /finance/list/ HTTP/1.1" 200 10808
-INFO 2021-09-24 18:07:36,793 "GET /students/list HTTP/1.1" 200 17436
-INFO 2021-09-24 18:07:43,196 "GET /students/create/ HTTP/1.1" 200 14860
-INFO 2021-09-24 18:07:50,340 "GET /students/list HTTP/1.1" 200 17436
-INFO 2021-09-24 18:08:12,763 "GET /students/9/ HTTP/1.1" 200 12286
-ERROR 2021-09-24 18:08:17,731 Internal Server Error: /students/9/update/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
     response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 105, in render
     self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 83, in rendered_content
     return template.render(context, self._request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
     return self.template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 170, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
-    return compiled_parent._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
-    result = block.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 195, in render
-    return template.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 172, in render
-    return self._render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
-    return self.nodelist.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 938, in render
-    bit = node.render_annotated(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
-    nodelist.append(node.render_annotated(context))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
-    return self.render(context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 994, in render
-    return render_value_in_context(output, context)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 973, in render_value_in_context
-    value = str(value)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/utils/html.py", line 376, in <lambda>
-    klass.__str__ = lambda self: mark_safe(klass_str(self))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/forms/boundfield.py", line 34, in __str__
-    return self.as_widget()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/widget_tweaks/templatetags/widget_tweaks.py", line 32, in as_widget
-    process(widget or self.field.widget, attrs, attribute, value)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/widget_tweaks/templatetags/widget_tweaks.py", line 67, in process
-    elif widget.attrs.get(attribute):
-AttributeError: 'tuple' object has no attribute 'attrs'
-ERROR 2021-09-24 18:08:17,744 "GET /students/9/update/ HTTP/1.1" 500 238354
-INFO 2021-09-24 18:13:38,130 /home/ogaba/PythonProjects/School/school/apps/students/views.py changed, reloading.
-INFO 2021-09-24 18:13:43,928 Watching for file changes with StatReloader
-INFO 2021-09-24 18:13:48,293 "GET /students/9/update/ HTTP/1.1" 200 15017
-INFO 2021-09-24 18:17:02,036 "GET /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 18:17:07,737 "GET /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 18:17:13,192 "GET /session/create/?next=current-session/ HTTP/1.1" 200 10627
-INFO 2021-09-24 18:17:28,025 "GET /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 18:17:33,218 "GET /term/create/?next=current-session/ HTTP/1.1" 200 10612
-INFO 2021-09-24 18:17:44,316 "GET /session/list/ HTTP/1.1" 200 12051
-INFO 2021-09-24 18:17:50,026 "GET /term/list/ HTTP/1.1" 200 12684
-INFO 2021-09-24 18:20:08,849 "GET /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 18:20:13,846 "GET /session/create/?next=current-session/ HTTP/1.1" 200 10627
-INFO 2021-09-24 18:20:52,638 /home/ogaba/PythonProjects/School/school/apps/management/forms.py changed, reloading.
-INFO 2021-09-24 18:20:54,413 Watching for file changes with StatReloader
-INFO 2021-09-24 18:21:09,547 /home/ogaba/PythonProjects/School/school/apps/management/forms.py changed, reloading.
-INFO 2021-09-24 18:21:12,320 Watching for file changes with StatReloader
-INFO 2021-09-24 18:21:14,783 "GET /session/create/?next=current-session/ HTTP/1.1" 200 10329
-INFO 2021-09-24 18:21:24,050 "GET /session/list/ HTTP/1.1" 200 11752
-INFO 2021-09-24 18:21:34,176 "GET /term/list/ HTTP/1.1" 200 12394
-INFO 2021-09-24 18:21:38,740 "GET /term/2/update/ HTTP/1.1" 200 10321
-ERROR 2021-09-24 18:21:42,638 Internal Server Error: /term/2/update/
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/ogaba/Desktop/assignment/school/apps/management/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 07:47:31,810 "GET /staff/15/ HTTP/1.1" 500 103108
+ERROR 2023-04-05 07:47:34,306 Internal Server Error: /staff/15/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
-    return super().post(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
-    return self.form_valid(form)
-  File "/home/ogaba/PythonProjects/School/school/apps/management/views.py", line 149, in form_valid
-    if obj.current == False:
-AttributeError: 'function' object has no attribute 'current'
-ERROR 2021-09-24 18:21:42,645 "POST /term/2/update/ HTTP/1.1" 500 95045
-INFO 2021-09-24 18:22:01,285 /home/ogaba/PythonProjects/School/school/apps/management/forms.py changed, reloading.
-INFO 2021-09-24 18:22:03,252 Watching for file changes with StatReloader
-ERROR 2021-09-24 18:22:07,331 Internal Server Error: /term/2/update/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
-    return super().post(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
-    return self.form_valid(form)
-  File "/home/ogaba/PythonProjects/School/school/apps/management/views.py", line 149, in form_valid
-    if obj.current == False:
-AttributeError: 'function' object has no attribute 'current'
-ERROR 2021-09-24 18:22:07,340 "POST /term/2/update/ HTTP/1.1" 500 95061
-INFO 2021-09-24 18:22:24,283 "GET /term/list/ HTTP/1.1" 200 12684
-INFO 2021-09-24 18:22:29,995 "GET /term/2/update/ HTTP/1.1" 200 10602
-INFO 2021-09-24 18:22:38,515 "GET /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 18:22:58,996 "POST /current-session/ HTTP/1.1" 200 10971
-INFO 2021-09-24 18:23:54,755 "GET /staff/list/ HTTP/1.1" 200 11915
-INFO 2021-09-24 18:42:48,938 "GET /staff/list/ HTTP/1.1" 200 14625
-INFO 2021-09-24 18:44:09,596 "GET /staff/list/ HTTP/1.1" 200 14626
-INFO 2021-09-24 18:45:01,155 "GET /staff/15/ HTTP/1.1" 200 11502
-INFO 2021-09-24 18:46:33,085 "GET /staff/15/ HTTP/1.1" 200 11453
-ERROR 2021-09-24 18:47:42,337 Internal Server Error: /staff/15/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
     response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 105, in render
     self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
-    filter_expression = self.compile_filter(token.contents)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
-    return FilterExpression(token, self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
-    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
-django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' object.surname object.first_name' from 'object.last_name object.surname object.first_name'
-ERROR 2021-09-24 18:47:42,352 "GET /staff/15/ HTTP/1.1" 500 174038
-INFO 2021-09-24 18:48:25,430 "GET /staff/15/ HTTP/1.1" 200 11468
-INFO 2021-09-24 18:48:58,263 "GET /staff/15/ HTTP/1.1" 200 11413
-INFO 2021-09-24 18:49:59,290 "GET /staff/15/ HTTP/1.1" 200 11419
-INFO 2021-09-24 18:50:36,538 "GET /staff/15/ HTTP/1.1" 200 11446
-INFO 2021-09-24 18:51:04,151 "GET /staff/15/ HTTP/1.1" 200 11440
-ERROR 2021-09-24 18:53:30,487 Internal Server Error: /staff/15/
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/ogaba/Desktop/assignment/school/apps/management/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 07:47:34,306 "GET /staff/15/ HTTP/1.1" 500 103108
+ERROR 2023-04-05 07:47:35,139 Internal Server Error: /staff/15/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
     response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 105, in render
     self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 18:53:30,493 "GET /staff/15/ HTTP/1.1" 500 186272
-ERROR 2021-09-24 18:54:20,772 Internal Server Error: /staff/15/
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/ogaba/Desktop/assignment/school/apps/management/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 07:47:35,139 "GET /staff/15/ HTTP/1.1" 500 103108
+ERROR 2023-04-05 07:47:35,836 Internal Server Error: /staff/15/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
     response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 105, in render
     self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 18:54:20,780 "GET /staff/15/ HTTP/1.1" 500 186280
-ERROR 2021-09-24 18:55:51,455 Internal Server Error: /staff/15/
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/ogaba/Desktop/assignment/school/apps/management/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.management.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2023-04-05 07:47:35,837 "GET /staff/15/ HTTP/1.1" 500 103108
+INFO 2023-04-05 07:48:09,218 /home/ogaba/Desktop/assignment/school/apps/management/context_processors.py changed, reloading.
+INFO 2023-04-05 07:48:09,544 Watching for file changes with StatReloader
+INFO 2023-04-05 07:48:14,515 "GET /staff/15/ HTTP/1.1" 200 12090
+INFO 2023-04-05 07:48:16,049 "GET /staff/15/ HTTP/1.1" 200 12090
+INFO 2023-04-05 07:48:21,903 "GET /students/list HTTP/1.1" 200 25736
+INFO 2023-04-05 07:48:26,184 "GET /students/20/ HTTP/1.1" 200 12703
+INFO 2023-04-05 07:48:42,025 "GET /finance/list/ HTTP/1.1" 200 11712
+INFO 2023-04-05 07:48:46,728 "GET /results/create/ HTTP/1.1" 200 18523
+INFO 2023-04-05 07:50:48,788 "POST /results/create/ HTTP/1.1" 200 18669
+INFO 2023-04-05 07:50:54,953 "POST /results/create/ HTTP/1.1" 200 12450
+INFO 2023-04-05 07:51:35,580 "POST /results/create/ HTTP/1.1" 200 12450
+INFO 2023-04-05 07:51:50,550 "POST /results/create/ HTTP/1.1" 302 0
+INFO 2023-04-05 07:51:50,633 "GET /results/edit-results/ HTTP/1.1" 200 14953
+INFO 2023-04-05 07:51:55,248 "POST /results/edit-results/ HTTP/1.1" 302 0
+INFO 2023-04-05 07:51:55,329 "GET /results/edit-results/ HTTP/1.1" 200 15096
+INFO 2023-04-05 07:52:06,343 "GET /results/create/ HTTP/1.1" 200 18523
+INFO 2023-04-05 07:52:16,481 "GET /students/list HTTP/1.1" 200 25736
+INFO 2023-04-05 07:52:22,325 "GET /students/9/ HTTP/1.1" 200 12745
+INFO 2023-04-05 07:52:27,876 "GET /students/9/update/ HTTP/1.1" 200 15476
+INFO 2023-04-05 07:53:15,379 "POST /students/9/update/ HTTP/1.1" 200 15760
+INFO 2023-04-05 07:53:43,522 "POST /students/9/update/ HTTP/1.1" 200 15626
+INFO 2023-04-05 07:53:50,951 "POST /students/9/update/ HTTP/1.1" 302 0
+INFO 2023-04-05 07:53:50,998 "GET /students/9/ HTTP/1.1" 200 12920
+INFO 2023-04-05 07:54:08,546 "GET /students/9/update/ HTTP/1.1" 200 15531
+INFO 2023-04-05 07:54:31,510 "POST /students/9/update/ HTTP/1.1" 302 0
+INFO 2023-04-05 07:54:31,536 "GET /students/9/ HTTP/1.1" 200 12874
+INFO 2023-04-05 07:55:16,226 "GET /results/create/ HTTP/1.1" 200 18503
+INFO 2023-04-05 07:55:21,106 "POST /results/create/ HTTP/1.1" 200 12450
+INFO 2023-04-05 07:55:26,899 "POST /results/create/ HTTP/1.1" 302 0
+INFO 2023-04-05 07:55:26,974 "GET /results/edit-results/ HTTP/1.1" 200 16271
+INFO 2023-04-05 07:55:55,782 "POST /results/edit-results/ HTTP/1.1" 302 0
+INFO 2023-04-05 07:55:55,874 "GET /results/edit-results/ HTTP/1.1" 200 16420
+INFO 2023-04-05 07:56:00,608 "GET /results/view/all HTTP/1.1" 200 13108
+INFO 2023-04-05 07:57:06,515 "GET /site-config HTTP/1.1" 200 11778
+INFO 2023-04-05 07:57:09,655 "POST /site-config HTTP/1.1" 200 11796
+INFO 2023-04-05 07:57:22,962 "POST /site-config HTTP/1.1" 200 11794
+INFO 2023-04-05 07:57:24,620 "POST /site-config HTTP/1.1" 200 11794
+INFO 2023-04-05 07:57:25,378 "POST /site-config HTTP/1.1" 200 11794
+INFO 2023-04-05 07:57:26,278 "POST /site-config HTTP/1.1" 200 11794
+INFO 2023-04-05 08:04:10,594 /home/ogaba/Desktop/assignment/school/apps/management/forms.py changed, reloading.
+INFO 2023-04-05 08:04:10,970 Watching for file changes with StatReloader
+INFO 2023-04-05 08:04:12,069 /home/ogaba/Desktop/assignment/school/apps/management/forms.py changed, reloading.
+INFO 2023-04-05 08:04:12,374 Watching for file changes with StatReloader
+INFO 2023-04-05 08:04:14,488 /home/ogaba/Desktop/assignment/school/apps/management/forms.py changed, reloading.
+INFO 2023-04-05 08:04:14,792 Watching for file changes with StatReloader
+INFO 2023-04-05 08:04:16,921 /home/ogaba/Desktop/assignment/school/apps/management/forms.py changed, reloading.
+INFO 2023-04-05 08:04:17,390 Watching for file changes with StatReloader
+INFO 2023-04-05 08:04:39,948 /home/ogaba/Desktop/assignment/school/apps/management/forms.py changed, reloading.
+INFO 2023-04-05 08:04:40,328 Watching for file changes with StatReloader
+INFO 2023-04-05 08:08:17,308 "GET /students/list HTTP/1.1" 200 25737
+INFO 2023-04-05 08:23:52,053 "GET /auth/logout/ HTTP/1.1" 200 1365
+INFO 2023-04-05 08:23:52,085 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2023-04-05 08:23:52,085 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2023-04-05 08:23:52,137 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2023-04-05 08:23:52,240 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2023-04-05 08:23:52,240 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2023-04-05 08:23:56,956 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-04-05 08:23:57,009 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO 2023-04-05 08:23:57,079 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2023-04-05 08:23:57,079 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2023-04-05 08:23:57,080 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2023-04-05 08:24:14,637 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-04-05 08:24:14,662 "GET /admin/ HTTP/1.1" 200 3329
+INFO 2023-04-05 08:24:14,751 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2023-04-05 08:24:14,773 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-04-05 08:24:14,773 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-04-05 08:24:14,774 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2023-04-05 08:24:22,624 "GET / HTTP/1.1" 200 13657
+INFO 2023-04-05 08:24:48,200 "GET /students/list HTTP/1.1" 200 25737
+ERROR 2023-04-05 08:24:52,509 Internal Server Error: /students/upload/
 Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
     response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 105, in render
     self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 81, in rendered_content
     template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/response.py", line 63, in resolve_template
     return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
     return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
     return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/engine.py", line 143, in get_template
     template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/engine.py", line 125, in find_template
     template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/loaders/base.py", line 29, in get_template
     return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 155, in __init__
     self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 193, in compile_nodelist
     return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 478, in parse
     raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 476, in parse
     compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 278, in do_extends
     nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 478, in parse
     raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 476, in parse
     compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 216, in do_block
     nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 28: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 18:55:51,481 "GET /staff/15/ HTTP/1.1" 500 186228
-INFO 2021-09-24 18:57:42,096 "GET /staff/15/ HTTP/1.1" 200 11452
-INFO 2021-09-24 19:02:08,228 "GET /students/list HTTP/1.1" 200 21346
-INFO 2021-09-24 19:02:27,803 "GET /students/18/ HTTP/1.1" 200 12244
-INFO 2021-09-24 19:07:16,508 "GET /staff/list/ HTTP/1.1" 200 14626
-ERROR 2021-09-24 19:07:21,540 Internal Server Error: /staff/1/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
-    self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 28: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 19:07:21,543 "GET /staff/1/ HTTP/1.1" 500 186033
-ERROR 2021-09-24 19:08:40,995 Internal Server Error: /staff/1/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
-    self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 19:08:41,009 "GET /staff/1/ HTTP/1.1" 500 186094
-ERROR 2021-09-24 19:08:50,345 Internal Server Error: /staff/1/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
-    self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 19:08:50,349 "GET /staff/1/ HTTP/1.1" 500 186094
-ERROR 2021-09-24 19:09:11,249 Internal Server Error: /staff/1/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
-    self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 979, in do_if
-    nodelist = parser.parse(('endif',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'static', expected 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 19:09:11,270 "GET /staff/1/ HTTP/1.1" 500 186054
-ERROR 2021-09-24 19:10:33,050 Internal Server Error: /staff/1/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
-    compile_func = self.tags[command]
-KeyError: 'static'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    response = response.render()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 105, in render
-    self.content = self.rendered_content
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
-    return select_template(template, using=self.using)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
-    return engine.get_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
-    return Template(
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
-    self.nodelist = self.compile_nodelist()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
-    return parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
-    nodelist = parser.parse()
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
-    nodelist = parser.parse(('endblock',))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
-    raise self.error(token, e)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
-    compiled_result = compile_func(self, token)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
-    nodelist = parser.parse(('elif', 'else', 'endif'))
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 24: 'static', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
-ERROR 2021-09-24 19:10:33,055 "GET /staff/1/ HTTP/1.1" 500 184603
-INFO 2021-09-24 19:13:50,316 "GET /staff/1/ HTTP/1.1" 200 11624
-INFO 2021-09-24 19:14:46,654 "GET /staff/1/ HTTP/1.1" 200 11644
-INFO 2021-09-24 19:15:04,950 "GET /staff/list/ HTTP/1.1" 200 14626
-INFO 2021-09-24 19:15:17,006 "GET /staff/10/ HTTP/1.1" 200 11632
-INFO 2021-09-24 19:15:33,873 "GET /staff/list/ HTTP/1.1" 200 14626
-INFO 2021-09-24 19:15:45,001 "GET /staff/8/ HTTP/1.1" 200 11620
-INFO 2021-09-24 19:16:06,634 "GET /staff/8/delete/ HTTP/1.1" 200 10051
-INFO 2021-09-24 19:16:12,310 "POST /staff/8/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:16:12,514 "GET /staff/list/ HTTP/1.1" 200 14357
-INFO 2021-09-24 19:16:19,737 "GET /staff/1/ HTTP/1.1" 200 11644
-INFO 2021-09-24 19:16:24,948 "GET /staff/1/delete/ HTTP/1.1" 200 10085
-INFO 2021-09-24 19:16:30,331 "POST /staff/1/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:16:30,550 "GET /staff/list/ HTTP/1.1" 200 14059
-INFO 2021-09-24 19:16:35,998 "GET /staff/2/ HTTP/1.1" 200 11637
-INFO 2021-09-24 19:16:40,302 "GET /staff/2/delete/ HTTP/1.1" 200 10072
-INFO 2021-09-24 19:16:45,627 "POST /staff/2/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:16:45,828 "GET /staff/list/ HTTP/1.1" 200 13780
-INFO 2021-09-24 19:16:49,976 "GET /staff/3/ HTTP/1.1" 200 11661
-INFO 2021-09-24 19:16:54,724 "GET /staff/3/delete/ HTTP/1.1" 200 10087
-INFO 2021-09-24 19:16:58,686 "POST /staff/3/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:16:58,918 "GET /staff/list/ HTTP/1.1" 200 13478
-INFO 2021-09-24 19:17:03,500 "GET /staff/4/ HTTP/1.1" 200 11644
-INFO 2021-09-24 19:17:09,824 "GET /staff/4/delete/ HTTP/1.1" 200 10073
-INFO 2021-09-24 19:17:13,632 "POST /staff/4/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:17:13,903 "GET /staff/list/ HTTP/1.1" 200 13190
-INFO 2021-09-24 19:17:18,545 "GET /staff/5/ HTTP/1.1" 200 11636
-INFO 2021-09-24 19:17:24,391 "GET /staff/5/delete/ HTTP/1.1" 200 10077
-INFO 2021-09-24 19:17:29,782 "POST /staff/5/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:17:30,160 "GET /staff/list/ HTTP/1.1" 200 12898
-INFO 2021-09-24 19:17:37,963 "GET /staff/6/ HTTP/1.1" 200 11639
-INFO 2021-09-24 19:17:41,875 "GET /staff/6/delete/ HTTP/1.1" 200 10066
-INFO 2021-09-24 19:17:46,472 "POST /staff/6/delete/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:17:46,691 "GET /staff/list/ HTTP/1.1" 200 12609
-INFO 2021-09-24 19:17:50,975 "GET /staff/7/ HTTP/1.1" 200 11625
-INFO 2021-09-24 19:17:58,966 "GET /staff/7/delete/ HTTP/1.1" 200 10056
-INFO 2021-09-24 19:18:08,350 "GET /staff/7/update/ HTTP/1.1" 200 15012
-INFO 2021-09-24 19:18:45,417 "POST /staff/7/update/ HTTP/1.1" 200 15124
-ERROR 2021-09-24 19:19:05,454 Internal Server Error: /staff/7/update/
-Traceback (most recent call last):
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
-    return super().post(request, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
-    return self.form_valid(form)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/contrib/messages/views.py", line 11, in form_valid
-    response = super().form_valid(form)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 126, in form_valid
-    return super().form_valid(form)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 57, in form_valid
-    return HttpResponseRedirect(self.get_success_url())
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/views/generic/edit.py", line 116, in get_success_url
-    url = self.object.get_absolute_url()
-  File "/home/ogaba/PythonProjects/School/school/apps/staff/models.py", line 45, in get_absolute_url
-    return reverse("staff-details", kwargs={"pk": self.pk})
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-  File "/home/ogaba/anaconda3/envs/school/lib/python3.9/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'staff-details' not found. 'staff-details' is not a valid view function or pattern name.
-ERROR 2021-09-24 19:19:05,475 "POST /staff/7/update/ HTTP/1.1" 500 118806
-INFO 2021-09-24 19:20:38,479 /home/ogaba/PythonProjects/School/school/apps/staff/models.py changed, reloading.
-INFO 2021-09-24 19:20:42,568 Watching for file changes with StatReloader
-INFO 2021-09-24 19:20:59,347 "POST /staff/7/update/ HTTP/1.1" 302 0
-INFO 2021-09-24 19:20:59,676 "GET /staff/7/ HTTP/1.1" 200 11772
-INFO 2021-09-24 19:23:24,822 "GET /class/list/ HTTP/1.1" 200 13553
-INFO 2021-09-24 19:23:29,860 "GET /session/list/ HTTP/1.1" 200 12051
-INFO 2021-09-24 19:23:42,833 "GET /subject/list/ HTTP/1.1" 200 13011
-INFO 2021-09-24 19:29:37,110 "GET /subject/list/ HTTP/1.1" 200 13776
-INFO 2021-09-24 19:30:40,271 "GET /subject/list/ HTTP/1.1" 200 13753
-INFO 2021-09-24 19:31:08,075 "GET /subject/list/ HTTP/1.1" 200 13498
-INFO 2021-09-24 19:32:26,259 "GET /subject/list/ HTTP/1.1" 200 13509
-INFO 2021-09-24 19:34:18,408 "GET /subject/list/ HTTP/1.1" 200 13462
-INFO 2021-09-24 19:36:32,160 "GET /subject/list/ HTTP/1.1" 200 14744
-INFO 2021-09-24 19:37:13,624 "GET /subject/list/ HTTP/1.1" 200 13165
-INFO 2021-09-24 19:39:09,525 "GET /subject/list/ HTTP/1.1" 200 14067
-INFO 2021-09-24 19:42:25,478 "GET /subject/list/ HTTP/1.1" 200 14146
-INFO 2021-09-24 19:43:42,673 "GET /subject/list/ HTTP/1.1" 200 14127
-INFO 2021-09-24 19:44:25,152 "GET /subject/list/ HTTP/1.1" 200 14127
-INFO 2021-09-24 19:47:54,580 "GET /subject/list/ HTTP/1.1" 200 14196
-INFO 2021-09-24 19:48:52,812 "GET /subject/list/ HTTP/1.1" 200 14176
-INFO 2021-09-24 19:50:02,765 "GET /subject/list/ HTTP/1.1" 200 14450
-INFO 2021-09-24 19:50:53,136 "GET /subject/list/ HTTP/1.1" 200 14188
-INFO 2021-09-24 19:53:01,186 "GET /subject/list/ HTTP/1.1" 200 14223
-INFO 2021-09-24 19:53:36,644 "GET /subject/list/ HTTP/1.1" 200 14220
-INFO 2021-09-24 19:54:59,613 "GET /subject/list/ HTTP/1.1" 200 14220
-INFO 2021-09-24 19:55:25,537 "GET /subject/list/ HTTP/1.1" 200 14213
-INFO 2021-09-24 19:56:45,630 "GET /subject/list/ HTTP/1.1" 200 14221
-INFO 2021-09-24 19:57:29,341 "GET /subject/list/ HTTP/1.1" 200 13365
-INFO 2021-09-24 19:58:29,149 "GET /subject/list/ HTTP/1.1" 200 13386
-INFO 2021-09-24 19:58:52,116 "GET /subject/list/ HTTP/1.1" 200 13416
-INFO 2021-09-24 19:59:43,199 "GET /subject/list/ HTTP/1.1" 200 13470
-INFO 2021-09-24 20:04:25,049 "GET /site-config HTTP/1.1" 200 11778
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/ogaba/Desktop/assignment/school/env/lib/python3.10/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 1: 'block'. Looking for one of: endblock.
+ERROR 2023-04-05 08:24:52,510 "GET /students/upload/ HTTP/1.1" 500 151773
+INFO 2023-04-05 08:25:32,046 "GET /students/upload/ HTTP/1.1" 200 10915
+INFO 2023-04-05 08:25:44,823 "GET /students/download-csv/ HTTP/1.1" 200 109
+INFO 2023-04-05 08:26:06,987 "GET /students/9/ HTTP/1.1" 200 12731
+INFO 2023-04-05 08:26:59,738 "GET /students/9/ HTTP/1.1" 200 12745
+INFO 2023-04-05 08:27:27,953 "GET /students/9/ HTTP/1.1" 200 12659
+INFO 2023-04-05 08:27:29,488 "GET /students/9/ HTTP/1.1" 200 12659
+INFO 2023-04-05 08:27:30,239 "GET /students/9/ HTTP/1.1" 200 12659
+INFO 2023-04-05 08:27:30,975 "GET /students/9/ HTTP/1.1" 200 12659
+INFO 2023-04-05 08:27:42,081 "GET /finance/list/ HTTP/1.1" 200 11712
+INFO 2023-04-05 08:27:45,745 "GET /finance/create/ HTTP/1.1" 200 17119
+INFO 2023-04-05 08:28:07,973 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2023-04-05 08:28:07,986 "GET /finance/list HTTP/1.1" 301 0
+INFO 2023-04-05 08:28:08,081 "GET /finance/list/ HTTP/1.1" 200 12147
+INFO 2023-04-05 08:28:10,740 "GET /finance/receipt/create?invoice=3 HTTP/1.1" 200 11775
+INFO 2023-04-05 08:28:27,355 "POST /finance/receipt/create?invoice=3 HTTP/1.1" 302 0
+INFO 2023-04-05 08:28:27,394 "GET /finance/list/ HTTP/1.1" 200 12152
+INFO 2023-04-05 08:28:29,718 "GET /finance/3/detail/ HTTP/1.1" 200 12007
+INFO 2023-04-05 08:29:01,029 "GET /students/list HTTP/1.1" 200 25737
+INFO 2023-04-05 08:29:03,674 "GET /students/10/ HTTP/1.1" 200 12714
+INFO 2023-04-05 08:29:09,819 "GET /students/list HTTP/1.1" 200 25737
+INFO 2023-04-05 08:29:12,025 "GET /students/9/ HTTP/1.1" 200 13150
