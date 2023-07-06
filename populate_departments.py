@@ -20,8 +20,8 @@ names = [
 ]
 
 
-def generate_departments(n=10):
-    for entry in range(n):
+def generate_departments():
+    for entry in range(10):
         name = random.choice(names)
         code = fakegen.random_int(min=10000, max=99999, step=1)
         lead = random.choices(Staff)

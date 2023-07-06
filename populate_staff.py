@@ -31,8 +31,8 @@ for i in range(1, 6):
     des = Designation.objects.get(id=i)
     designations.append(des)
 
-def generate_staff(n=10):
-    for entry in range(n):
+def generate_staff():
+    for entry in range(10):
         first_name = fakegen.first_name()
         name = fakegen.last_name_nonbinary()
         last_name = fakegen.last_name()
@@ -57,6 +57,5 @@ def generate_staff(n=10):
 
 if __name__ == "__main__":
     print('Creating Fake Staff....')
-    n = int(input('How many staff members do you wanna create?'))
-    generate_staff(n)
+    generate_staff()
     print('Members of staff created successfully.')

@@ -11,8 +11,8 @@ from apps.students.models import Student
 
 fakegen = Faker()
 
-def generate_students(n=10):
-    for entry in range(n):
+def generate_students():
+    for entry in range(10):
         first_name = fakegen.first_name()
         name = fakegen.last_name_nonbinary()
         last_name = fakegen.last_name()
@@ -34,7 +34,6 @@ def generate_students(n=10):
 
 if __name__ == "__main__":
     print('Creating Fake Students....')
-    n = int(input('How many students do you wanna create?'))
-    generate_students(n)
+    generate_students()
     print('students are created.')
     
