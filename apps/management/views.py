@@ -119,7 +119,7 @@ class SessionDeleteView(LoginRequiredMixin, DeleteView):
 
 class TermCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = AcademicTerm
-    form_class = AcademicSessionForm
+    form_class = AcademicTermForm
     template_name = 'management/core_form.html'
     success_url = reverse_lazy('terms')
     success_message = "New term successsfully added"

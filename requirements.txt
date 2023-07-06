@@ -1,7 +1,7 @@
 asgiref==3.4.1
 autopep8==1.5.7
 certifi==2021.5.30
-cffi==1.14.6
+# cffi==1.14.6
 chardet==4.0.0
 charset-normalizer==2.0.4
 cryptography==3.4.8
@@ -15,7 +15,7 @@ django-cors-headers==3.8.0
 django-crispy-forms==1.12.0
 django-debug-toolbar==3.2.2
 django-discover-runner==1.0
-django-heroku==0.3.1
+# django-heroku==0.3.1
 django-model-utils==4.1.1
 django-rest-auth==0.9.5
 django-role-permissions==3.1.1
@@ -32,7 +32,7 @@ jet-django==1.1.5
 oauthlib==3.1.1
 Pillow==8.3.2
 prompt-toolkit==2.0.9
-psycopg2==2.8.6
+# psycopg2==2.8.6
 pycodestyle==2.7.0
 pycparser==2.20
 PyJWT==2.1.0
