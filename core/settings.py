@@ -13,26 +13,13 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 import environ
-from storages.backends.azure_storage import AzureStorage
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 env = environ.Env()
 env.read_env(BASE_DIR / '.env')
-
-class AzureMediaStorage(AzureStorage):
-    account_name = env.str('AZURE_ACCOUNT_NAME')
-    account_key = env.str('AZURE_ACCOUNT_KEY')
-    azure_container = 'media'
-    expiration_secs = None
-
-
-class AzureStaticStorage(AzureStorage):
-    account_name = env.str('AZURE_ACCOUNT_NAME')
-    account_key = env.str('AZURE_ACCOUNT_KEY')
-    azure_container = 'static'
-    expiration_secs = None
 
 
 # Quick-start development settings - unsuitable for production
@@ -42,7 +29,7 @@ class AzureStaticStorage(AzureStorage):
 SECRET_KEY = env.str("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env.str('DEBUG', default=True)
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
@@ -51,10 +38,6 @@ ALLOWED_HOSTS = [
     '.azurewebsites.net',
 ]
 
-### Site-wide configurations
-
-SECURE_SSL_REDIRECT=env.str('SECURE_SSL_REDIRECT', default=0)
-CSRF_TRUSTED_ORIGINS='https://school-management.azurewebsites.net/'
 
 # Application definition
 
@@ -112,6 +95,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
     "default": {
         "NAME": env.str("POSTGRES_DB"),
@@ -157,28 +146,23 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Azure Storage
-AZURE_ACCOUNT_NAME = env.str('AZURE_ACCOUNT_NAME')
-AZURE_ACCOUNT_KEY = env.str('AZURE_ACCOUNT_KEY')
-AZURE_CUSTOM_DOMAIN = f'{AZURE_ACCOUNT_NAME}.blob.core.windows.net'
-
-DEFAULT_FILE_STORAGE = 'core.settings.AzureMediaStorage'
-STATICFILES_STORAGE = 'core.settings.AzureStaticStorage'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10240
 
+STATIC_URL = "/static/"
+
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
-STATIC_URL = f'https://{AZURE_CUSTOM_DOMAIN}/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_URL = f'https://{AZURE_CUSTOM_DOMAIN}/media/'
-MEDIA_ROOT = BASE_DIR / 'mediafiles'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+MEDIA_URL = "/media/"
 
 # LOGIN_REDIRECT_URL = "/"
 
