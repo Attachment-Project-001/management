@@ -15,6 +15,12 @@ env:
   COMPOSE_DOCKER_CLI_BUILD: 1
   DEBUG: true
   USE_DOCKER: no
+  POSTGRES_HOST: localhost
+  POSTGRES_PORT: 5432
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_DB: postgres
+
 
 
 jobs:
@@ -37,13 +43,6 @@ jobs:
         ports:
           # Maps tcp port 5432 on service container to the host
           - 5432:5432
-    
-    env:
-      POSTGRES_HOST: localhost
-      POSTGRES_PORT: 5432
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
         
     strategy:
       max-parallel: 4
