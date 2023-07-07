@@ -3173,3 +3173,399 @@ INFO 2023-07-06 23:55:30,828 /home/ogaba/Desktop/assignment/management/core/sett
 INFO 2023-07-06 23:55:31,200 Watching for file changes with StatReloader
 INFO 2023-07-06 23:55:34,462 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
 INFO 2023-07-06 23:57:50,006 Watching for file changes with StatReloader
+INFO 2023-07-07 01:18:17,367 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:31:07,630 Watching for file changes with StatReloader
+INFO 2023-07-07 01:32:37,849 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:32:38,483 Watching for file changes with StatReloader
+INFO 2023-07-07 01:32:40,757 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:33:36,876 Watching for file changes with StatReloader
+INFO 2023-07-07 01:33:50,110 "GET / HTTP/1.1" 301 0
+INFO 2023-07-07 01:33:50,115 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2023-07-07 01:33:50,116 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:33:50,125 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x003\x00+\x00)')
+ERROR 2023-07-07 01:33:50,125 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:33:53,185 code 400, message Bad request version ('{éI¾Ü1r\x0eãË!FÂËPni')
+ERROR 2023-07-07 01:33:53,186 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:33:53,188 code 400, message Bad request version ('\x9aÈ¢\x10>5\x13í\x8a\x18\x7fÛ¾l\x00')
+ERROR 2023-07-07 01:33:53,189 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:05,932 code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00\x17\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00')
+ERROR 2023-07-07 01:34:05,933 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:05,937 code 400, message Bad request version ('µ«ë6k')
+ERROR 2023-07-07 01:34:05,937 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:07,310 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00\x12\x00\x00\x003\x00+\x00)')
+ERROR 2023-07-07 01:34:07,310 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:07,312 code 400, message Bad request version ('h%kòZ\x0fð\x98sdîÐ~¥ù')
+ERROR 2023-07-07 01:34:07,312 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:10,470 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2023-07-07 01:34:10,470 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:10,471 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03°¶a\x17§Qô\x82')
+ERROR 2023-07-07 01:34:10,471 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:12,545 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2023-07-07 01:34:12,545 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:34:12,546 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:34:12,546 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:35:24,266 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00+\x00\x07\x06úú\x03\x04\x03\x03\x00')
+ERROR 2023-07-07 01:35:24,267 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:35:24,268 code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:35:24,268 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:35:50,578 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00\x00')
+ERROR 2023-07-07 01:35:50,578 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:35:50,579 code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00\x12\x00\x00\x00')
+ERROR 2023-07-07 01:35:50,579 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:36:10,810 "GET /admin/ HTTP/1.1" 301 0
+INFO 2023-07-07 01:36:10,814 code 400, message Bad request version ('å¥K\\#E\x80\x8a)©\x19\x18vÉ¨åE0\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00')
+ERROR 2023-07-07 01:36:10,814 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:36:10,815 code 400, message Bad request version ('KNS\x03Iìû\x80\x05Bd\x80\x10pö\x91"\x8a\x8b¾\x07')
+ERROR 2023-07-07 01:36:10,815 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:36:25,695 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06')
+ERROR 2023-07-07 01:36:25,695 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:36:25,696 code 400, message Bad request version ('®§@ÛcëÀüµt\x11\x01ëBà%\x12æë,£')
+ERROR 2023-07-07 01:36:25,696 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:37:02,760 "GET / HTTP/1.1" 301 0
+INFO 2023-07-07 01:37:02,772 code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x12\x00\x00\x00')
+ERROR 2023-07-07 01:37:02,772 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:37:02,774 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2023-07-07 01:37:02,774 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:37:10,467 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+ERROR 2023-07-07 01:37:10,467 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:37:10,468 code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00')
+ERROR 2023-07-07 01:37:10,469 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:37:30,777 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:37:31,430 Watching for file changes with StatReloader
+INFO 2023-07-07 01:38:06,164 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03=\x8bØM[\x125=ÄKUÉ\x9a')
+ERROR 2023-07-07 01:38:06,165 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:06,166 code 400, message Bad request version ('¢«¤\x7f')
+ERROR 2023-07-07 01:38:06,166 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:14,261 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:38:14,261 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:14,262 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00\x00')
+ERROR 2023-07-07 01:38:14,262 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:28,028 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:38:28,646 Watching for file changes with StatReloader
+INFO 2023-07-07 01:38:35,588 code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00#\x00\x00\x00')
+ERROR 2023-07-07 01:38:35,589 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:35,589 code 400, message Bad request version ('Þ¼\x0f"TÙØ¿tÂÊ½Æ')
+ERROR 2023-07-07 01:38:35,590 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:36,330 code 400, message Bad request version ('[Â8æ\x84&-\x15¡mP\x98»LóM\x16yeyLÿ$\x15\x00')
+ERROR 2023-07-07 01:38:36,330 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:36,331 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2023-07-07 01:38:36,331 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:38,791 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2023-07-07 01:38:38,791 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:38,793 code 400, message Bad request version ('\x00\x02\x01\x00Di\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00-\x00\x02\x01\x01\x00')
+ERROR 2023-07-07 01:38:38,793 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:46,655 code 400, message Bad request version ('X\x7f{N3Ã¦3J\x13¡\x83ý\x0fmÔ§G<{Z\x9dK\x05\x14s4')
+ERROR 2023-07-07 01:38:46,656 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:38:46,657 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2023-07-07 01:38:46,657 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:01,492 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:39:02,090 Watching for file changes with StatReloader
+INFO 2023-07-07 01:39:09,827 Watching for file changes with StatReloader
+INFO 2023-07-07 01:39:17,184 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00\x00+\x00\x07\x06::\x03\x04\x03\x03\x00')
+ERROR 2023-07-07 01:39:17,184 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:17,185 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:39:17,185 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:17,963 code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00')
+ERROR 2023-07-07 01:39:17,963 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:17,966 code 400, message Bad request version ('\x94~vvüÊ\x00')
+ERROR 2023-07-07 01:39:17,967 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:23,880 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¼')
+ERROR 2023-07-07 01:39:23,881 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:23,884 code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00\x00\x12\x00\x00\x00#\x00\x00\x00')
+ERROR 2023-07-07 01:39:23,884 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:27,364 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ºè0båÒ*\x15')
+ERROR 2023-07-07 01:39:27,364 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:27,366 code 400, message Bad request version ('\x03:P\x84ÕnG2\x9cY\x81t<\x07&É')
+ERROR 2023-07-07 01:39:27,366 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:39:55,627 Watching for file changes with StatReloader
+INFO 2023-07-07 01:40:01,452 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06êê\x03\x04\x03\x03\x00')
+ERROR 2023-07-07 01:40:01,453 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:01,454 code 400, message Bad request version ('¾\x13\x12\x1ar¢¿¬8ãÆ\x80\x174¿wÉM\x00')
+ERROR 2023-07-07 01:40:01,455 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:02,250 code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00')
+ERROR 2023-07-07 01:40:02,251 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:02,252 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03õ\x89%\x14ÑóÙ|')
+ERROR 2023-07-07 01:40:02,252 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:02,540 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2023-07-07 01:40:02,540 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:02,541 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:40:02,542 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:02,784 code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\x00')
+ERROR 2023-07-07 01:40:02,784 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:02,785 code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00\x12\x00\x00\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:40:02,785 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:03,031 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03>«Aä:Y0')
+ERROR 2023-07-07 01:40:03,031 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:03,032 code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00')
+ERROR 2023-07-07 01:40:03,032 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:12,122 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03[zàY·ö¨ü')
+ERROR 2023-07-07 01:40:12,122 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:40:12,123 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:40:12,123 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:33,891 Watching for file changes with StatReloader
+INFO 2023-07-07 01:52:39,056 code 400, message Bad request version ('=v\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00+\x00\x07\x06JJ\x03\x04\x03\x03Di\x00\x05\x00\x03\x02h2\x00')
+ERROR 2023-07-07 01:52:39,056 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:39,057 code 400, message Bad request version ('\x00\x14\x00\x12\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x02\x01\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2023-07-07 01:52:39,058 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:40,359 code 400, message Bad request version ('%L\x0fÜ¬Hà$U0Ì\x92snßµ·Í\x8f\x8b\x99]Ã6á0ê\x00')
+ERROR 2023-07-07 01:52:40,360 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:40,362 code 400, message Bad request version ('Ã¨.\x82O\x96«¢\x18ÞÅü\x00')
+ERROR 2023-07-07 01:52:40,362 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:41,222 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2023-07-07 01:52:41,223 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:41,224 code 400, message Bad request version ('\x06µdôPX^l$\x00')
+ERROR 2023-07-07 01:52:41,224 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:41,875 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÐX')
+ERROR 2023-07-07 01:52:41,876 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:41,877 code 400, message Bad request version ('ª@\x88e¯|k\x97')
+ERROR 2023-07-07 01:52:41,877 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:42,322 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06êê\x03\x04\x03\x03\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:52:42,322 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:42,323 code 400, message Bad request version ('\x00\x02\x01\x00Di\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2023-07-07 01:52:42,324 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:42,842 code 400, message Bad request version ('×Øò%')
+ERROR 2023-07-07 01:52:42,842 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:42,843 code 400, message Bad request version ('\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\x00')
+ERROR 2023-07-07 01:52:42,844 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:43,054 code 400, message Bad request version ('\x02h2\x08http/1.1\x00#\x00\x00\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:52:43,054 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:43,055 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:52:43,055 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:43,226 code 400, message Bad request version ('ËÆ\x8f/\x02\x9f\x8bMO{\x17Î\x9cv\x8f+Di\x00\x05\x00\x03\x02h2\x00')
+ERROR 2023-07-07 01:52:43,226 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:43,227 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2023-07-07 01:52:43,227 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:43,371 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:52:43,371 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:43,372 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2023-07-07 01:52:43,372 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:45,625 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2023-07-07 01:52:45,626 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:45,627 code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:52:45,627 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:51,312 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2023-07-07 01:52:51,312 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:51,313 code 400, message Bad request version ('\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01\x00')
+ERROR 2023-07-07 01:52:51,313 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:52,295 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x1a\x1a\x00\x00ÿ\x01\x00\x01\x00\x00+\x00\x07\x06')
+ERROR 2023-07-07 01:52:52,295 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:52:52,295 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:52:52,296 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:55:33,426 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:55:34,101 Watching for file changes with StatReloader
+INFO 2023-07-07 01:55:38,477 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:55:39,167 Watching for file changes with StatReloader
+INFO 2023-07-07 01:55:43,573 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:55:44,205 Watching for file changes with StatReloader
+INFO 2023-07-07 01:55:45,542 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:55:46,143 Watching for file changes with StatReloader
+INFO 2023-07-07 01:55:51,463 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:55:52,033 Watching for file changes with StatReloader
+INFO 2023-07-07 01:55:55,354 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:56:16,025 Watching for file changes with StatReloader
+INFO 2023-07-07 01:56:24,045 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:56:24,046 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:56:24,047 code 400, message Bad request version ('\x00\x14\x00\x12\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x02\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2023-07-07 01:56:24,047 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:56:31,233 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06**\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:56:31,233 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:56:31,234 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00')
+ERROR 2023-07-07 01:56:31,234 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:56:41,519 "GET / HTTP/1.1" 302 0
+INFO 2023-07-07 01:56:41,553 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+WARNING 2023-07-07 01:56:47,647 Not Found: /favicon.ico
+WARNING 2023-07-07 01:56:47,647 "GET /favicon.ico HTTP/1.1" 404 6330
+INFO 2023-07-07 01:57:10,524 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:57:11,161 Watching for file changes with StatReloader
+INFO 2023-07-07 01:57:14,358 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+INFO 2023-07-07 01:57:23,769 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:57:24,401 Watching for file changes with StatReloader
+INFO 2023-07-07 01:57:28,183 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+INFO 2023-07-07 01:57:42,091 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:57:42,718 Watching for file changes with StatReloader
+INFO 2023-07-07 01:57:45,174 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+INFO 2023-07-07 01:57:56,414 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:57:57,042 Watching for file changes with StatReloader
+INFO 2023-07-07 01:57:59,336 "GET /accounts/login/?next=/ HTTP/1.1" 301 0
+INFO 2023-07-07 01:57:59,344 code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:57:59,344 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:57:59,347 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2023-07-07 01:57:59,347 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:00,970 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00#\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+ERROR 2023-07-07 01:58:00,971 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:00,973 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03s<ÇMÏDúY[DP_\x95\x03¡ÁNq\x98\x9e')
+ERROR 2023-07-07 01:58:00,974 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:05,492 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:58:06,082 Watching for file changes with StatReloader
+INFO 2023-07-07 01:58:07,701 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2023-07-07 01:58:07,702 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:07,704 code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:58:07,705 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:08,684 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00')
+ERROR 2023-07-07 01:58:08,685 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:08,687 code 400, message Bad request version ('\x00\x14\x00\x12\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x02\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2023-07-07 01:58:08,687 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:09,019 code 400, message Bad request version ('q\x86')
+ERROR 2023-07-07 01:58:09,019 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:09,020 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2023-07-07 01:58:09,020 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:14,771 "GET / HTTP/1.1" 302 0
+INFO 2023-07-07 01:58:14,775 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x12\x00\x00\x00')
+ERROR 2023-07-07 01:58:14,775 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:14,776 code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+ERROR 2023-07-07 01:58:14,776 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:58:26,032 "GET / HTTP/1.1" 302 0
+INFO 2023-07-07 01:58:26,067 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+INFO 2023-07-07 01:58:50,536 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:58:51,111 Watching for file changes with StatReloader
+INFO 2023-07-07 01:58:54,418 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:58:55,064 Watching for file changes with StatReloader
+INFO 2023-07-07 01:59:00,407 /home/ogaba/Desktop/assignment/management/core/settings.py changed, reloading.
+INFO 2023-07-07 01:59:01,040 Watching for file changes with StatReloader
+INFO 2023-07-07 01:59:06,061 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+INFO 2023-07-07 01:59:25,112 code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00')
+ERROR 2023-07-07 01:59:25,112 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:25,113 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03/R\x7fG©æ\x02')
+ERROR 2023-07-07 01:59:25,113 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:28,328 code 400, message Bad request version ('\x1b\x00')
+ERROR 2023-07-07 01:59:28,328 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:28,330 code 400, message Bad request version ('\x00\x14\x00\x12\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x02\x01\x00')
+ERROR 2023-07-07 01:59:28,330 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:28,515 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x12\x00\x00\x00')
+ERROR 2023-07-07 01:59:28,516 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:28,516 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93êê\x00\x00ÿ\x01\x00\x01\x00\x00')
+ERROR 2023-07-07 01:59:28,516 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:28,729 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00\x00')
+ERROR 2023-07-07 01:59:28,730 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:28,733 code 400, message Bad request version ('\x00\x14\x00\x12\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x02\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2023-07-07 01:59:28,734 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:31,308 code 400, message Bad request version ('¡T[½\x8cö^¨q\x16¡-+\x08cÙÆ\x18\x8f½àâþï#%\x04d\x98\x8dv\x16\x00')
+ERROR 2023-07-07 01:59:31,308 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 01:59:31,310 code 400, message Bad request version ('\x1aQåfª÷Ng()y¥³\x86÷\x16s\x8b\x96Mþ\x9fN\x00')
+ERROR 2023-07-07 01:59:31,310 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-07-07 02:00:51,461 "GET / HTTP/1.1" 302 0
+INFO 2023-07-07 02:00:51,489 "GET /accounts/login/?next=/ HTTP/1.1" 200 4539
+WARNING 2023-07-07 02:00:58,750 Not Found: /favicon.ico
+WARNING 2023-07-07 02:00:58,751 "GET /favicon.ico HTTP/1.1" 404 6330
+INFO 2023-07-07 02:01:05,448 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2023-07-07 02:01:05,513 "GET / HTTP/1.1" 200 14213
+INFO 2023-07-07 02:01:11,653 "GET /admin HTTP/1.1" 301 0
+INFO 2023-07-07 02:01:11,717 "GET /admin/ HTTP/1.1" 200 4734
+INFO 2023-07-07 02:01:24,112 "GET /staff/list/ HTTP/1.1" 200 11193
+INFO 2023-07-07 02:01:27,383 "GET /students/list HTTP/1.1" 200 11498
+INFO 2023-07-07 02:01:30,628 "GET /students/create/ HTTP/1.1" 200 15590
+INFO 2023-07-07 02:02:22,036 "POST /students/create/ HTTP/1.1" 200 15785
+INFO 2023-07-07 02:02:34,643 "POST /students/create/ HTTP/1.1" 302 0
+INFO 2023-07-07 02:02:34,691 "GET /students/1/ HTTP/1.1" 200 13449
+INFO 2023-07-07 02:02:46,476 "GET /students/list HTTP/1.1" 200 11889
+INFO 2023-07-07 02:02:49,090 "GET /students/create/ HTTP/1.1" 200 15590
+INFO 2023-07-07 02:03:02,063 "GET /students/create/ HTTP/1.1" 200 15590
+INFO 2023-07-07 02:03:08,011 "GET /students/create/ HTTP/1.1" 200 15590
+INFO 2023-07-07 02:03:14,490 "GET /session/list/ HTTP/1.1" 200 13070
+INFO 2023-07-07 02:04:24,274 "GET /session/list/ HTTP/1.1" 200 13070
