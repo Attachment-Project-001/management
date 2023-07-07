@@ -24,7 +24,7 @@ def user_is_staff(user):
 class DashboardView(LoginRequiredMixin, TemplateView):
     template_name = "dashboard.html"
 
-    def dashboard(request, self):
+    def get(self, request, *args, **kwargs):
         total_students = Student.objects.count()
         total_staff = Staff.objects.count()
         context = {
@@ -357,10 +357,10 @@ def daily_attendance(request):
 #     model = User
 #     template_name = 'admin_tools/accounts_list.html'
 #     context_object_name = 'accounts'
-# 
+#
 #     def test_func(self):
 #         return self.request.user.is_staff
-# 
+#
 #     def handle_no_permission(self):
 #         if self.request.user.is_authenticated:
 #             return redirect('account:home')
