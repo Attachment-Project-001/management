@@ -8,7 +8,6 @@ from .models import (
     Stud_Class,
 )
 
-
 class SiteConfigTest(TestCase):
     def test_siteconfig(self):
         site_config = SiteConfig.objects.create(key="akey", value="aname")

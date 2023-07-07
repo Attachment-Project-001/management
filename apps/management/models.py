@@ -35,7 +35,7 @@ class AcademicSession(models.Model):
     '''Academic Session'''
     name = models.CharField(max_length=200, unique=True)
     current = models.BooleanField(default=True)
-    created_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, null=True)    
+    created_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, null=True)
 
     class Meta:
         ordering = ['name']
@@ -78,6 +78,9 @@ class SubjectAssignToTeacher(models.Model):
     def __int__(self):
         return self.id
 
+    def __str__(self):
+        return self.subject.name
+
 
 class SubjectAssignToStudent(models.Model):
     subject = models.ForeignKey(Subject, on_delete=models.DO_NOTHING, null=True)
@@ -86,6 +89,9 @@ class SubjectAssignToStudent(models.Model):
 
     def __int__(self):
         return self.id
+
+    def __str__(self):
+        return self.subject.name
 
 
 class Stud_Class(models.Model):
