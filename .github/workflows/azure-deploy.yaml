@@ -11,6 +11,7 @@ env:
     CLUSTER_RESOURCE_GROUP: AKS-Test
     CONTAINER_NAME: image-workflow-1690956971133
     DEPLOYMENT_MANIFEST_PATH: |
+        manifests/secrets.yaml
         manifests/deployment.yaml
         manifests/service.yaml
 jobs:
