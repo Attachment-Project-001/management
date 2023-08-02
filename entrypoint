@@ -4,5 +4,8 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+# change into the app home
+cd /app
+
 >&2 echo 'About to run Gunicorn...'
-/usr/local/bin/gunicorn core.asgi --bind 0.0.0.0:8000 --chdir=/app -k uvicorn.workers.UvicornWorker
+/usr/local/bin/gunicorn /app/core.asgi --bind 0.0.0.0:8000 --chdir=/app -k uvicorn.workers.UvicornWorker
