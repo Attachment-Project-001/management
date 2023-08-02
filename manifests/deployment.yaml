@@ -26,7 +26,7 @@ spec:
                 secretKeyRef:
                   name: azure-deploy-secret
                   key: postgresql-password
-            - name: POSTGRES_USERNAME
+            - name: POSTGRES_USER
               valueFrom:
                 secretKeyRef:
                   name: azure-deploy-secret
