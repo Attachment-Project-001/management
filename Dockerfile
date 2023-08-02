@@ -3,6 +3,8 @@ FROM python:3.10-slim as python-build-stage
 ARG APP_HOME=/app
 WORKDIR ${APP_HOME}
 
+COPY . ${APP_HOME}
+
 # Copy only the requirements.txt to utilize Docker cache efficiently
 COPY ./requirements.txt ./
 
@@ -45,6 +47,9 @@ COPY --from=python-build-stage /usr/src/app/wheels /wheels/
 # Install Python dependencies using wheels
 RUN pip install --no-cache-dir --no-index --find-links=/wheels/ /wheels/* \
     && rm -rf /wheels/
+
+# Copy project
+COPY --from=python-build-stage ${APP_HOME} ${APP_HOME}
 
 # Copy entrypoint and setup scripts
 COPY ./entrypoint /entrypoint
