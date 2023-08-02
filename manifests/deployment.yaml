@@ -20,3 +20,26 @@ spec:
           image: acrworkflow1690956971133.azurecr.io/image-workflow-1690956971133:latest
           ports:
             - containerPort: 8000
+          env:
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: azure-deploy-secret
+                  key: postgresql-password
+            - name: POSTGRES_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: azure-deploy-secret
+                  key: postgresql-username
+            - name: POSTGRES_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: azure-deploy-secret
+                  key: postgresql-host
+            - name: POSTGRES_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: azure-deploy-secret
+                  key: postgresql-port
+            - name: POSTGRES_DB
+              value: school
